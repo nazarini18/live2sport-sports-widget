@@ -1,0 +1,33 @@
+name: Daily Sports Fixtures & TV Guide Sync
+
+on:
+  schedule:
+    # Runs everyday at 05:00 UTC (07:00 Kyiv)
+    - cron: '0 5 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Daily Sync Script
+        run: |
+          python sync_daily_matches.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Live2Sport Sync Bot"
+          git add README.md data/today_fixtures.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(sync): update daily match TV broadcast center [skip ci]" && git push)
