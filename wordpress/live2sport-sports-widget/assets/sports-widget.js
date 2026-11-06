@@ -136,8 +136,12 @@
         ? scriptSrc.substring(0, scriptSrc.lastIndexOf('/') + 1)
         : '/widget/';
 
-    var defaultProxy = scriptDir + 'schedule_proxy.php';
-    var baseUrl = scriptDir;
+    var defaultProxy = (scriptDir.indexOf('github.io') !== -1 || scriptDir === '/widget/' || scriptDir.indexOf('http') !== 0)
+        ? 'https://tvevents.org/widget/schedule_proxy.php'
+        : (scriptDir + 'schedule_proxy.php');
+    var baseUrl = (scriptDir.indexOf('github.io') !== -1 || scriptDir === '/widget/' || scriptDir.indexOf('http') !== 0)
+        ? 'https://tvevents.org/widget/'
+        : scriptDir;
 
     // Full catalog of 27 sports matching tvevents.org & sportposter
     var sportsList = [
@@ -202,31 +206,6 @@
         });
     }
 
-    function flagSlug(value) {
-        var name = String(value || '').toLowerCase();
-        try { name = decodeURIComponent(name); } catch (e) {}
-        return name.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-            .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    }
-
-    function formatLeagueFlag(val) {
-        var aliases = window.TVEventsSportsWidgetFlags || {};
-        var parts = typeof val.url_name_OP === 'string' ? val.url_name_OP.split('/') : [];
-        var candidates = [parts[2], val.country];
-        var code = 'world';
-        var label = 'International';
-        for (var i = 0; i < candidates.length; i++) {
-            var name = flagSlug(candidates[i]);
-            if (Object.prototype.hasOwnProperty.call(aliases, name)) {
-                code = aliases[name];
-                label = String(candidates[i]);
-                break;
-            }
-        }
-        return '<img class="sp-flag" src="' + escapeHtml(baseUrl + 'images/flags/' + code + '.svg') +
-            '" width="24" height="18" alt="" title="' + escapeHtml(label) + '">';
-    }
-
     /**
      * Determines America/New_York UTC offset in minutes for date d.
      * EDT = UTC-4 (-240m), EST = UTC-5 (-300m)
@@ -277,84 +256,80 @@
         return hh + ':' + mm;
     }
 
-    function formatScoreText(raw) {
-        if (!raw) return '';
-        var s = String(raw);
-        s = s.replace(/<sup[^>]*>([0-9]+)<\/sup>/gi, '($1)');
-        s = s.replace(/&lt;sup[^&>]*&gt;([0-9]+)&lt;\/sup&gt;/gi, '($1)');
-        s = s.replace(/<[^>]+>/g, '');
-        s = s.replace(/&lt;[^&>]+&gt;/g, '');
+    /**
+     * Cleans scores across all sports (Darts, Tennis, etc.):
+     * - Strips HTML tags (<strong>, <span>, <sup>)
+     * - Converts tiebreak <sup>5</sup> to (5)
+     * - Decodes HTML entities (&nbsp;, &amp;)
+     * - Removes redundant Darts text like "(Final result ... played on legs)"
+     */
+    function cleanScore(rawScore, scores1, sportId) {
+        if (!rawScore && !scores1) return '';
+        var s = String(rawScore || scores1 || '');
+
+        // In Darts or when scores contains "played on legs" / "Final result"
+        if (sportId === 39 || s.indexOf('played on legs') !== -1 || s.indexOf('Final result') !== -1) {
+            if (scores1 && String(scores1).trim() !== '') {
+                return String(scores1).trim();
+            }
+            s = s.replace(/\s*\(\s*Final\s*result.*?played\s*on\s*legs\s*\)/gi, '');
+            s = s.replace(/\s*\(\s*Final\s*result\s*only\s*\)/gi, '');
+        }
+
+        // 1. Decode entities
         s = s.replace(/&nbsp;/gi, ' ')
              .replace(/&amp;/gi, '&')
+             .replace(/&lt;/gi, '<')
+             .replace(/&gt;/gi, '>')
              .replace(/&quot;/gi, '"')
              .replace(/&#039;/gi, "'");
-        return s.replace(/\s{2,}/g, ' ').trim();
+
+        // 2. Convert tiebreaks: <sup>5</sup> to (5)
+        s = s.replace(/<sup[^>]*>(.*?)<\/sup>/gi, '($1)');
+
+        // 3. Strip all HTML tags
+        s = s.replace(/<[^>]+>/g, '');
+
+        // 4. Normalize spaces
+        s = s.replace(/\s{2,}/g, ' ').trim();
+        return s;
     }
 
-    function formatScoreHtml(raw) {
-        if (!raw) return '';
-        var s = String(raw);
-        s = s.replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&');
-        var safe = escapeHtml(s);
-        safe = safe.replace(/&lt;sup&gt;([0-9]+)&lt;\/sup&gt;/gi, '<sup>$1</sup>');
-        safe = safe.replace(/&lt;[^&>]+&gt;/gi, '');
-        return safe;
-    }
+    /**
+     * Converts sportposter live extra_info into clean match period / time (like tvevents.org):
+     * e.g. "2nd Half - 58'" -> "2H 58'", "Half-time" -> "HT", "1st Period" -> "P1", "1st Inning" -> "I1"
+     */
+    function formatLiveTime(extraInfo) {
+        if (!extraInfo) return '';
+        var s = String(extraInfo);
 
-    // Score/status markup copied from the current livestream.fan schedule.
-    function formatMatchStatus(val, timeStr) {
-        var isLiveMatch = val.live && !val.scores;
-        var isFinishedMatch = !!(val.scores || val.scores1);
+        s = s.replace(/&nbsp;/gi, ' ').replace(/<[^>]+>/g, '').trim();
 
-        var timeHtml = "<div class='time-col-box'>";
-        timeHtml += "<span class='time-col-main" + (isLiveMatch ? " is-live" : "") + "'>" + timeStr + "</span>";
+        s = s.replace(/1st Period/gi, "P1");
+        s = s.replace(/2nd Period/gi, "P2");
+        s = s.replace(/3rd Period/gi, "P3");
+        s = s.replace(/1st Inning/gi, "I1");
+        s = s.replace(/2nd Inning/gi, "I2");
+        s = s.replace(/3rd Inning/gi, "I3");
+        s = s.replace(/4th Inning/gi, "I4");
+        s = s.replace(/5th Inning/gi, "I5");
+        s = s.replace(/6th Inning/gi, "I6");
+        s = s.replace(/7th Inning/gi, "I7");
+        s = s.replace(/8th Inning/gi, "I8");
+        s = s.replace(/9th Inning/gi, "I9");
+        s = s.replace(/1st Quarter/gi, "Q1");
+        s = s.replace(/2nd Quarter/gi, "Q2");
+        s = s.replace(/3rd Quarter/gi, "Q3");
+        s = s.replace(/4th Quarter/gi, "Q4");
+        s = s.replace(/1st Half/gi, "1H");
+        s = s.replace(/2nd Half/gi, "2H");
+        s = s.replace(/Penalties/gi, "Pen");
+        s = s.replace(/Extra Time/gi, "ET");
+        s = s.replace(/Half-time/gi, "HT");
+        s = s.replace(/Pending/gi, "•");
 
-        if (isLiveMatch) {
-            timeHtml += "<span class='time-col-sub is-live'>LIVE</span>";
-        } else if (isFinishedMatch) {
-            var stText = 'FT';
-            var s1 = (val.scores1 || '').toString();
-            if (s1.indexOf('OT') !== -1) stText = 'OT';
-            else if (s1.indexOf('pen') !== -1) stText = 'PEN';
-            else if (s1 === 'Pst') stText = 'PST';
-            else if (s1 === 'Int') stText = 'INT';
-            else if (s1 === 'Abn') stText = 'ABN';
-            else if (s1 === 'Cnc') stText = 'CNC';
-            timeHtml += "<span class='time-col-sub is-ft'>" + stText + "</span>";
-        }
-        timeHtml += "</div>";
-
-        var scoreBadgeHtml = '';
-        if (isFinishedMatch) {
-            var mainScore = (val.scores1 && val.scores1 !== '') ? val.scores1 : (val.scores ? val.scores.split('(')[0].trim() : '');
-            var detailedScore = (val.scores && val.scores !== '') ? val.scores : mainScore;
-            if (!mainScore && detailedScore) {
-                mainScore = detailedScore.split(' ')[0];
-            }
-            mainScore = formatScoreText(mainScore);
-            if (mainScore) {
-                scoreBadgeHtml = "<span class='sp-score-wrap' tabindex='0'>" +
-                    "<span class='sp-score-badge is-finished' title='Detailed score: " + escapeHtml(formatScoreText(detailedScore)) + "'>" + escapeHtml(mainScore) + "</span>" +
-                    "<span class='sp-score-tooltip'>" + formatScoreHtml(detailedScore) + "</span>" +
-                    "</span>";
-            }
-        } else if (isLiveMatch) {
-            var liveMain = val.live_score ? val.live_score : 'LIVE';
-            var liveDetails = (val.live_score ? val.live_score : '') +
-                (val.extra_score ? ' ' + val.extra_score : '') +
-                (val.extra_info ? ' ' + val.extra_info : '');
-            if (!liveDetails.trim()) {
-                liveDetails = 'Match in progress';
-            }
-            scoreBadgeHtml = "<span class='sp-score-wrap' tabindex='0'>" +
-                "<span class='sp-score-badge is-live' title='Live: " + escapeHtml(formatScoreText(liveDetails)) + "'>" +
-                "<span class='sp-score-dot'></span>" + escapeHtml(formatScoreText(liveMain)) +
-                "</span>" +
-                "<span class='sp-score-tooltip'>" + formatScoreHtml(liveDetails) + "</span>" +
-                "</span>";
-        }
-
-        return { timeHtml: timeHtml, scoreHtml: scoreBadgeHtml };
+        s = s.replace(/\s*-\s*/g, ' ').replace(/\s{2,}/g, ' ').trim();
+        return s;
     }
 
     function formatDropVal(initVal, currVal) {
@@ -377,44 +352,21 @@
         return "<span class='sp-badge' style='color:" + color + ";background:" + bg + ";border-color:" + border + ";min-width:44px;'>" + pctStr + "</span>";
     }
 
-    function readDecimalOdds(value) {
-        if (value === null || value === undefined || value === false || value === '') return 0;
-        if (typeof value !== 'number' && typeof value !== 'string') return null;
-        var number = Number(value);
-        if (number === 0) return 0;
-        return isFinite(number) && number > 1 ? number : null;
-    }
-
-    // Normalize inverse odds to remove the market margin, as on sportschedule.tv.
-    function normalizedProbabilities(odds) {
-        if (!(odds[0] > 1) || !(odds[2] > 1) || odds[1] === null) return null;
-        var weights = odds.map(function (value) { return value > 1 ? 1 / value : 0; });
-        var total = weights.reduce(function (sum, value) { return sum + value; }, 0);
-        return weights.map(function (value) { return Number((value / total * 100).toFixed(1)); });
-    }
-
-    function marketProbabilities(val, odds) {
-        var supplied = val.percent;
-        if (typeof supplied === 'string') supplied = supplied.split(':');
-        if (Array.isArray(supplied) && supplied.length >= 3) {
-            var values = [Number(supplied[1]), Number(supplied[0] || 0), Number(supplied[2])];
-            var total = values.reduce(function (sum, value) { return sum + value; }, 0);
-            if (values[0] > 0 && values[2] > 0 &&
-                values.every(function (value) { return isFinite(value) && value >= 0 && value <= 100; }) &&
-                Math.abs(total - 100) <= 0.2) return values;
+    function formatOddsBadge(val, link, fallbackHref) {
+        if (!val || val === '') return '';
+        var validUrl = isHttpUrl(link) ? link : (isHttpUrl(fallbackHref) ? fallbackHref : '');
+        if (validUrl) {
+            return "<a href='" + encodeURI(validUrl) + "' class='sp-badge sp-badge-odds' target='_blank' rel='nofollow'>" + escapeHtml(val) + "</a>";
         }
-        return normalizedProbabilities(odds);
+        return "<span class='sp-badge sp-badge-odds'>" + escapeHtml(val) + "</span>";
     }
 
-    function formatMarketBadges(odds, showPercent, probabilities) {
-        var labels = ['1 (Home)', 'X (Draw)', '2 (Away)'];
-        return odds.map(function (value, i) {
-            if (showPercent ? (!probabilities || !(probabilities[i] > 0)) : !(value > 1)) return formatEmptyBadge(40);
-            var probability = probabilities ? probabilities[i] : 0;
-            var text = showPercent ? (probability % 1 === 0 ? probability.toFixed(0) : probability.toFixed(1)) + '%' : value.toFixed(2);
-            var title = labels[i] + (showPercent ? ': normalized implied probability' : ': decimal odds');
-            return '<span class="sp-badge sp-badge-odds" title="' + escapeHtml(title) + '">' + escapeHtml(text) + '</span>';
-        }).join('');
+    function formatBmBadge(label, link, fallbackHref) {
+        var validUrl = isHttpUrl(link) ? link : (isHttpUrl(fallbackHref) ? fallbackHref : '');
+        if (validUrl) {
+            return '<a href="' + encodeURI(validUrl) + '" target="_blank" rel="nofollow" class="sp-badge sp-badge-bm">' + escapeHtml(label) + '</a>';
+        }
+        return '<span class="sp-badge sp-badge-bm">' + escapeHtml(label) + '</span>';
     }
 
     function formatSPBadge(sp, isWon) {
@@ -457,17 +409,19 @@
         if (channels.length === 0) return '';
 
         var count = channels.length;
+        var styleCount = (count >= 10) ? ' style="font-size:9.5px;letter-spacing:-0.5px;"' : '';
 
         var listHtml = '';
         for (var j = 0; j < channels.length; j++) {
             listHtml += '<div class="sp-tv-channel-line">' + escapeHtml(channels[j]) + '</div>';
         }
 
-        var imgUrl = baseUrl + 'images/ico_tv.svg';
+        var imgUrl = baseUrl + 'images/ico_tv.png';
 
         return '<span class="sp-tv-wrap" tabindex="0" title="' + count + ' TV Channels">' +
             '<span class="sp-tv-icon-box">' +
-                '<img src="' + imgUrl + '" alt="TV" class="sp-tv-img">' +
+                '<img src="' + imgUrl + '" alt="TV" class="sp-tv-img" onerror="this.style.display=\'none\';this.nextElementSibling.classList.add(\'sp-tv-badge-fallback\');">' +
+                '<span class="sp-tv-overlay"' + styleCount + '>' + count + '</span>' +
             '</span>' +
             '<span class="sp-tv-tooltip">' +
                 '<span class="sp-tv-tooltip-header">📺 TV Channels (' + count + ')</span>' +
@@ -499,7 +453,7 @@
         var h2h = val.first_event_team_to_team || '';
         if (!eid) return '';
 
-        var icoUrl = baseUrl + 'images/ico_prediction.svg';
+        var icoUrl = baseUrl + 'images/ico_prediction.png';
         var homeTeam = escapeHtml(val.team_home_full || val.team_home || 'Home');
         var awayTeam = escapeHtml(val.team_away_full || val.team_away || 'Away');
         var userVotes = parseFloat(val.count_users_predictions || 0);
@@ -566,19 +520,13 @@
         return title || 'Match';
     }
 
-    function injectStyles(root) {
+    function injectStyles() {
+        if (document.getElementById('sp-widget-embedded-styles')) return;
         var style = document.createElement('style');
         style.id = 'sp-widget-embedded-styles';
         style.textContent = `
-            :host { display: block; }
             .sp-widget-root {
-                all: initial;
-                display: block;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-                font-size: 14px;
-                line-height: 1.4;
-                text-align: left;
-                direction: ltr;
                 color: #0f172a;
                 background: #ffffff;
                 border: 1px solid #e2e8f0;
@@ -803,7 +751,6 @@
             }
             .sp-table {
                 width: 100%;
-                min-width: 820px;
                 border-collapse: collapse;
                 table-layout: fixed;
             }
@@ -817,27 +764,6 @@
                 font-size: 12px;
                 font-weight: 700;
                 color: #334155;
-                vertical-align: middle;
-            }
-            .sp-league-title {
-                display: flex;
-                align-items: center;
-                gap: 6px;
-                line-height: 1.2;
-            }
-            .sp-flag {
-                display: block;
-                width: 24px;
-                height: 18px;
-                margin: 0;
-                flex-shrink: 0;
-                object-fit: contain;
-            }
-            .sp-match-content {
-                display: flex;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 4px;
             }
             .sp-league-header a {
                 color: #0f172a;
@@ -895,8 +821,7 @@
                 font-weight: 600;
                 font-size: 13px;
             }
-            span.sp-event-link { cursor: default; }
-            a.sp-event-link:hover {
+            .sp-event-link:hover {
                 color: #2563eb;
                 text-decoration: underline;
             }
@@ -933,6 +858,23 @@
                 min-width: 40px;
                 text-decoration: none;
             }
+            a.sp-badge-odds:hover {
+                background: #2563eb;
+                border-color: #2563eb;
+                color: #ffffff;
+            }
+            .sp-badge-bm {
+                background: #e2e8f0;
+                border-color: #cbd5e1;
+                color: #1e293b;
+                min-width: 34px;
+                text-decoration: none;
+            }
+            a.sp-badge-bm:hover {
+                background: #2563eb;
+                color: #ffffff;
+                border-color: #2563eb;
+            }
             .sp-badge-sp {
                 background: #f1f5f9;
                 border-color: #cbd5e1;
@@ -949,144 +891,40 @@
                 border: 1px dashed #cbd5e1;
                 color: #94a3b8;
             }
-.time-col-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.15;
-}
-.time-col-main {
-    font-size: 12px;
-    font-weight: 600;
-    color: #1e293b;
-    white-space: nowrap;
-}
-.time-col-main.is-live {
-    color: #dc2626;
-    font-weight: 700;
-}
-.time-col-sub {
-    font-size: 10px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 2px;
-    letter-spacing: 0.3px;
-    white-space: nowrap;
-}
-.time-col-sub.is-ft {
-    color: #64748b;
-}
-.time-col-sub.is-live {
-    color: #dc2626;
-}
-
-/* ==============================================================
-   SCORE BADGE & DETAILED SCORE TOOLTIP
-   ============================================================== */
-.sp-score-wrap {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    margin-left: 8px;
-    vertical-align: middle;
-    cursor: help;
-}
-.sp-score-badge {
-    display: inline-flex;
-    align-items: center;
-    padding: 2px 7px;
-    background: #f1f5f9;
-    border: 1px solid #cbd5e1;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #0f172a;
-    line-height: 16px;
-    white-space: nowrap;
-    transition: all 0.15s ease;
-}
-.sp-score-wrap:hover .sp-score-badge {
-    background: #e2e8f0;
-    border-color: #94a3b8;
-}
-.sp-score-badge.is-finished {
-    background: #dcfce7 !important;
-    border: 1px solid #86efac !important;
-    color: #15803d !important;
-    font-weight: 700 !important;
-}
-.sp-score-wrap:hover .sp-score-badge.is-finished {
-    background: #bbf7d0 !important;
-    border-color: #4ade80 !important;
-    color: #166534 !important;
-}
-.sp-score-badge.is-live {
-    background: #fee2e2;
-    border-color: #fecaca;
-    color: #dc2626;
-}
-.sp-score-wrap:hover .sp-score-badge.is-live {
-    background: #fecaca;
-}
-.sp-score-dot {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    background: #dc2626;
-    border-radius: 50%;
-    margin-right: 4px;
-}
-.sp-score-tooltip {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    bottom: calc(100% + 6px);
-    left: 50%;
-    transform: translateX(-50%);
-    background: #0f172a;
-    color: #f8fafc;
-    border: 1px solid #334155;
-    border-radius: 6px;
-    padding: 5px 9px;
-    font-size: 11px;
-    font-weight: 600;
-    white-space: nowrap;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 9999;
-    pointer-events: none;
-    transition: opacity 0.15s ease, visibility 0.15s ease;
-}
-.sp-score-tooltip sup {
-    font-size: 0.72em;
-    line-height: 0;
-    vertical-align: super;
-}
-.sp-score-tooltip::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 5px;
-    border-style: solid;
-    border-color: #0f172a transparent transparent transparent;
-}
-.sp-score-wrap:hover .sp-score-tooltip,
-.sp-score-wrap:focus-within .sp-score-tooltip {
-    visibility: visible;
-    opacity: 1;
-}
-.sp-match-row:nth-last-child(-n+2) .sp-score-tooltip {
-    bottom: auto;
-    top: calc(100% + 6px);
-}
-.sp-match-row:nth-last-child(-n+2) .sp-score-tooltip::after {
-    top: auto;
-    bottom: 100%;
-    border-color: transparent transparent #0f172a transparent;
-}
-
+            /* Finished match scores: GREEN */
+            .sp-score-finished {
+                display: inline-block;
+                margin-left: 6px;
+                font-size: 12px;
+                font-weight: 700;
+                color: #16a34a !important;
+            }
+            .sp-score-badge {
+                display: inline-block;
+                margin-left: 6px;
+                font-size: 12px;
+                font-weight: 700;
+                color: #16a34a !important;
+            }
+            /* Live matches: RED with elapsed time */
+            .sp-live-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 4px;
+                margin-left: 6px;
+                color: #dc2626 !important;
+                font-weight: 700;
+                font-size: 12px;
+                text-decoration: none;
+            }
+            .sp-live-num {
+                color: #dc2626;
+                font-weight: 800;
+            }
+            .sp-live-time {
+                color: #dc2626;
+                font-weight: 700;
+            }
             /* TV Broadcasts & Channels Tooltip (Modeled after live2sport.com) */
             .sp-tv-wrap {
                 position: relative;
@@ -1113,8 +951,43 @@
                 border: none;
                 margin: 0 auto;
             }
+            .sp-tv-overlay {
+                position: absolute;
+                top: 10px;
+                left: 1px;
+                width: 18px;
+                height: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #000000;
+                font-size: 11px;
+                font-weight: 800;
+                line-height: 1;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+                pointer-events: none;
+            }
+            .sp-tv-overlay.sp-tv-badge-fallback {
+                position: static;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background: #f1f5f9;
+                color: #1e293b;
+                border: 1px solid #cbd5e1;
+                border-radius: 4px;
+                padding: 1px 4px;
+                font-size: 10px;
+                font-weight: 700;
+                width: auto;
+                height: auto;
+            }
+            .sp-tv-overlay.sp-tv-badge-fallback::before {
+                content: "📺 ";
+                margin-right: 2px;
+            }
             .sp-tv-tooltip {
-                cursor: default;
                 visibility: hidden;
                 opacity: 0;
                 position: absolute;
@@ -1202,14 +1075,15 @@
                 color: #e2e8f0;
                 font-weight: 500;
             }
+            .sp-tv-channel-line:hover {
+                color: #ffffff;
+            }
             /* Prediction / Recommended Bets Tooltip */
             .sp-tip-wrap {
                 position: relative;
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
-                vertical-align: middle;
-                line-height: 1;
             }
             .sp-tip-btn {
                 display: inline-flex;
@@ -1232,11 +1106,8 @@
             }
             .sp-tip-ico {
                 height: 20px;
-                width: 20px;
+                width: auto;
                 display: block;
-                margin: 0;
-                padding: 0;
-                border: 0;
             }
             .sp-tip-fallback {
                 font-size: 14px;
@@ -1428,20 +1299,6 @@
                 background: #0284c7;
                 color: #ffffff;
             }
-            .sp-tv-tooltip::before, .sp-tip-tooltip::before { display: none; }
-            .sp-score-tooltip::after, .sp-tv-tooltip::after, .sp-tip-tooltip::after {
-                top: auto;
-                bottom: 100%;
-                left: var(--sp-arrow-left, 50%);
-                border-color: transparent transparent #0f172a transparent;
-            }
-            .sp-score-tooltip[data-placement="above"]::after,
-            .sp-tv-tooltip[data-placement="above"]::after,
-            .sp-tip-tooltip[data-placement="above"]::after {
-                top: 100%;
-                bottom: auto;
-                border-color: #0f172a transparent transparent transparent;
-            }
             .sp-tip-loading {
                 padding: 8px 0;
                 text-align: center;
@@ -1485,45 +1342,7 @@
                 to { transform: rotate(360deg); }
             }
         `;
-        style.textContent += `
-            :host { display:block; min-width:0; max-width:100%; container-type:inline-size; container-name:sp-schedule; }
-            .sp-details-toggle { display:none; }
-            @container sp-schedule (max-width:819px) {
-                .sp-table-wrap { overflow-x:clip; }
-                .sp-table, .sp-table tbody { display:block; min-width:0; width:100%; }
-                .sp-table colgroup { display:none; }
-                .sp-league-header { display:block; }
-                .sp-league-header td:first-child { display:none; }
-                .sp-league-header td { display:block; }
-                .sp-league-title { overflow-wrap:anywhere; }
-                .sp-match-row { display:grid; grid-template-columns:50px minmax(0,1fr) 32px 32px; gap:4px; padding:9px 8px; }
-                .sp-match-row td { display:block; width:auto; min-width:0; padding:0; }
-                .sp-match-row .sp-col-time { grid-column:1; grid-row:1; align-self:center; }
-                .sp-match-row .sp-col-event { grid-column:2; grid-row:1; align-self:center; }
-                .sp-event-link { overflow-wrap:anywhere; }
-                .sp-match-row .sp-col-tv { grid-column:3; grid-row:1; align-self:center; }
-                .sp-match-row .sp-col-tip { grid-column:4; grid-row:1; align-self:center; }
-                .sp-match-row .sp-col-trend { grid-column:1 / -1; grid-row:3; white-space:normal; }
-                .sp-match-row .sp-col-odds { grid-column:1 / -1; grid-row:2; white-space:normal; }
-                .sp-match-row .sp-col-sp { grid-column:1 / -1; grid-row:4; text-align:left; }
-                .sp-col-trend::before, .sp-col-odds::before, .sp-col-sp::before { display:inline-block; width:100px; font-size:11px; font-weight:600; color:#64748b; vertical-align:middle; }
-                .sp-col-trend::before { content:'Odds trend'; }
-                .sp-col-odds::before { content:'Odds 1 / X / 2'; }
-                .sp-table.sp-percent .sp-col-odds::before { content:'Win % 1 / X / 2'; }
-                .sp-col-sp::before { content:'Score prediction'; }
-                .sp-match-row .sp-badge { margin:2px; }
-                .sp-match-row:not(.sp-details-open) .sp-col-trend,
-                .sp-match-row:not(.sp-details-open) .sp-col-odds,
-                .sp-match-row:not(.sp-details-open) .sp-col-sp { display:none; }
-                .sp-details-toggle { display:inline-flex; align-items:center; gap:3px; padding:2px 5px; border:1px solid #e2e8f0; border-radius:4px; background:#f8fafc; color:#475569; font:inherit; font-size:10px; line-height:1.4; cursor:pointer; }
-                .sp-details-toggle::after { content:'\\002B'; }
-                .sp-details-toggle[aria-expanded="true"]::after { content:'\\2212'; }
-                .sp-details-toggle:focus-visible { outline:2px solid #2563eb; outline-offset:2px; }
-                .sp-details-open .sp-col-odds { margin-top:6px; padding-top:8px; border-top:1px solid #e2e8f0; }
-
-            }
-        `;
-        root.appendChild(style);
+        document.head.appendChild(style);
     }
 
     function getTodayDateStr() {
@@ -1564,8 +1383,7 @@
     }
 
     function SportsWidget(container, options) {
-        this.host = container;
-        this.container = container.shadowRoot || container.attachShadow({ mode: 'open' });
+        this.container = container;
         this.options = options || {};
         this.proxyUrl = this.options.proxyUrl || defaultProxy;
         this.siteUrl = this.options.siteUrl || 'donnael.com';
@@ -1576,6 +1394,7 @@
     }
 
     SportsWidget.prototype.init = function () {
+        injectStyles();
         this.container.innerHTML = `
             <div class="sp-widget-root">
                 <div class="sp-nav-sports-container">
@@ -1591,10 +1410,8 @@
                 <div class="sp-table-wrap">
                     <div class="sp-content-area"></div>
                 </div>
-                ${this.options.credits === true ? '<div class="sp-widget-credit" style="padding:10px 12px;text-align:right;font-size:12px;color:#64748b">Powered by <a href="https://live2sport.com/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline">Live2Sport</a></div>' : ''}
             </div>
         `;
-        injectStyles(this.container);
         this.bindEvents();
         this.renderSportsNav();
         this.renderDateStrip();
@@ -1603,20 +1420,6 @@
 
     SportsWidget.prototype.bindEvents = function () {
         var self = this;
-        this.container.addEventListener('click', function (event) {
-            var button = event.target.closest('.sp-details-toggle');
-            if (!button) return;
-            var row = button.closest('.sp-match-row');
-            var expanded = button.getAttribute('aria-expanded') !== 'true';
-            button.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-            row.classList.toggle('sp-details-open', expanded);
-        });
-        function repositionTooltip() {
-            if (self.activeTooltip && self.activeTooltip.isConnected) self.positionTooltip(self.activeTooltip);
-        }
-        window.addEventListener('scroll', repositionTooltip, { passive: true });
-        window.addEventListener('resize', repositionTooltip, { passive: true });
-        this.container.addEventListener('scroll', repositionTooltip, { passive: true, capture: true });
         var leftArrow = this.container.querySelector('.sp-nav-arrow-left');
         var rightArrow = this.container.querySelector('.sp-nav-arrow-right');
         var scrollBox = this.container.querySelector('.sp-nav-sports-scroll');
@@ -1774,9 +1577,7 @@
                 self.rawMatches = json;
                 self.renderMatches(json);
                 var scoresUrl = new URL('scores.php', new URL(self.proxyUrl, document.baseURI)).href;
-                self.stopLiveScores = window.SportsLiveScores.watchRows(self.host || self.container, scoresUrl, function(row) {
-                    self.bindTooltipPositions(row.querySelector('.sp-live-score-target'));
-                });
+                self.stopLiveScores = window.SportsLiveScores.watchRows(self.host || self.container, scoresUrl);
             })
             .catch(function (err) {
                 if (generation !== self.scoreGeneration) return;
@@ -1816,7 +1617,7 @@
             return ta - tb;
         });
 
-        var html = '<table class="sp-table' + (self.options.oddsDisplay === 'percent' ? ' sp-percent' : '') + '">';
+        var html = '<table class="sp-table">';
         html += '<colgroup><col style="width:65px;"><col style="width:auto;"><col style="width:38px;"><col style="width:38px;"><col style="width:150px;"><col style="width:150px;"><col style="width:60px;"></colgroup>';
 
         var prevLeague = null;
@@ -1826,12 +1627,21 @@
             // League Header
             if (val.league !== prevLeague) {
                 prevLeague = val.league;
-                var flagImg = formatLeagueFlag(val);
+                var flagImg = '';
+                if (val.url_name_OP) {
+                    var parts = val.url_name_OP.split('/');
+                    if (parts[2] && parts[2] !== 'h2h') {
+                        flagImg = "<img src='" + baseUrl + "images/flags/" + parts[2].toLowerCase() + ".png' height=18 style='vertical-align:middle;margin-right:6px;' onerror=\"this.style.display='none'\">";
+                    }
+                }
+                if (!flagImg && val.country) {
+                    flagImg = "<img src='" + baseUrl + "images/flags/" + val.country.toLowerCase().replace(/\s+/g, '-') + ".png' height=18 style='vertical-align:middle;margin-right:6px;' onerror=\"this.style.display='none'\">";
+                }
 
                 var leagueTitle = escapeHtml(val.league);
                 html += '<tr class="sp-league-header">';
                 html += '<td>Time</td>';
-                html += '<td colspan="6"><div class="sp-league-title">' + flagImg + '<span>' + leagueTitle + '</span></div></td>';
+                html += '<td colspan="6">' + flagImg + leagueTitle + '</td>';
                 html += '</tr>';
             }
 
@@ -1856,11 +1666,17 @@
                 matchHref = "https://tvevents.org/" + sportName + ".php/" + rawSlug + "/" + realId + "/";
             }
 
-            var matchLinks = self.options.matchLinks === true;
+            var matchLinks = self.options.matchLinks !== false;
 
-            var cleanScores = formatScoreText(val.scores || val.scores1);
-            var status = formatMatchStatus(val, formatTime(val.time));
-            var timeCellHtml = status.timeHtml;
+            // Clean scores and check Live status
+            var cleanScores = cleanScore(val.scores, val.scores1, sId);
+            var cleanLiveScore = cleanScore(val.live_score, null, sId);
+            var isLive = !cleanScores && (val.live || (cleanLiveScore && cleanLiveScore !== 'False' && cleanLiveScore !== false));
+            if (val.live && (!val.scores || val.scores === '')) isLive = true;
+
+            // Start Time in user's browser local timezone (kickoff time)
+            var formattedStartTime = formatTime(val.time);
+            var timeCellHtml = escapeHtml(formattedStartTime);
 
             // Odds extraction
             var bet_k = val.bet_koef;
@@ -1868,14 +1684,33 @@
             var bet_avg = val.bet_koef_avg_percent;
             if (typeof bet_avg === 'string') bet_avg = bet_avg.split(':');
 
-            var marketOdds = bet_avg
-                ? [readDecimalOdds(bet_avg[1]), readDecimalOdds(bet_avg[0]), readDecimalOdds(bet_avg[2])]
-                : [0, 0, 0];
-            if (!marketOdds[0] && bet_k) {
-                marketOdds = [readDecimalOdds(bet_k[9]), readDecimalOdds(bet_k[10]), readDecimalOdds(bet_k[11])];
+            var o1 = '', o0 = '', o2 = '';
+            if (bet_avg) {
+                if (bet_avg[1] && parseFloat(bet_avg[1]) > 0) o1 = parseFloat(bet_avg[1]).toFixed(2);
+                if (bet_avg[0] && parseFloat(bet_avg[0]) > 0) o0 = parseFloat(bet_avg[0]).toFixed(2);
+                if (bet_avg[2] && parseFloat(bet_avg[2]) > 0) o2 = parseFloat(bet_avg[2]).toFixed(2);
             }
-            var showPercent = self.options.oddsDisplay === 'percent';
-            var oddsHtml = formatMarketBadges(marketOdds, showPercent, showPercent ? marketProbabilities(val, marketOdds) : null);
+            if (!o1 && bet_k) {
+                if (bet_k[6] && parseFloat(bet_k[6]) > 0) o1 = parseFloat(bet_k[6]).toFixed(2);
+                if (bet_k[7] && parseFloat(bet_k[7]) > 0) o0 = parseFloat(bet_k[7]).toFixed(2);
+                if (bet_k[8] && parseFloat(bet_k[8]) > 0) o2 = parseFloat(bet_k[8]).toFixed(2);
+            }
+
+            var oddsLink = isHttpUrl(val.events_link_bet365) ? val.events_link_bet365 : (isHttpUrl(val.events_link_bwin) ? val.events_link_bwin : (matchLinks ? matchHref : ''));
+
+            var oddsHtml = '';
+            if (o1 !== '') {
+                oddsHtml += formatOddsBadge(o1, oddsLink, matchLinks ? matchHref : '');
+                if (o0 !== '') oddsHtml += formatOddsBadge(o0, oddsLink, matchLinks ? matchHref : '');
+                if (o2 !== '') oddsHtml += formatOddsBadge(o2, oddsLink, matchLinks ? matchHref : '');
+            } else {
+                if (val.events_link_bet365) oddsHtml += formatBmBadge('365', val.events_link_bet365, matchLinks ? matchHref : '');
+                if (val.events_link_bwin) oddsHtml += formatBmBadge('bwin', val.events_link_bwin, matchLinks ? matchHref : '');
+                if (val.events_link_unibet) oddsHtml += formatBmBadge('uni', val.events_link_unibet, matchLinks ? matchHref : '');
+            }
+            if (!oddsHtml) {
+                oddsHtml = formatEmptyBadge(40) + formatEmptyBadge(40) + formatEmptyBadge(40);
+            }
 
             // Trend extraction
             var dropHtml = '';
@@ -1896,25 +1731,41 @@
                 dropHtml = formatEmptyBadge(44) + formatEmptyBadge(44) + formatEmptyBadge(44);
             }
 
-            var scoresHtml = status.scoreHtml;
+            // Score & Live formatting
+            // Finished matches: GREEN (#16a34a)
+            // Live matches: RED (#dc2626) with match period/minute instead of [LIVE]
+            var scoresHtml = '';
+            if (cleanScores && cleanScores !== '' && !isLive) {
+                scoresHtml = " <span class='sp-score-finished'>" + escapeHtml(cleanScores) + "</span>";
+            } else if (isLive) {
+                var liveScoreText = (cleanLiveScore && cleanLiveScore !== 'False' && cleanLiveScore !== false) ? cleanLiveScore : '';
+                var liveTime = formatLiveTime(val.extra_info);
+                var liveLabel = liveTime ? liveTime : 'LIVE';
+
+                var liveScorePart = liveScoreText ? "<span class='sp-live-num'>" + escapeHtml(liveScoreText) + "</span> " : "";
+                var liveScoreHtml = liveScorePart + "<span class='sp-live-time'>[" + escapeHtml(liveLabel) + "]</span>";
+                scoresHtml = matchLinks
+                    ? " <a href='" + escapeHtml(matchHref) + "' class='sp-live-badge' target='_blank'>" + liveScoreHtml + "</a>"
+                    : " <span class='sp-live-badge'>" + liveScoreHtml + "</span>";
+            }
 
             // SP (Score Prediction)
             var isWon = (cleanScores && (cleanScores === val.score_prediction || val.scores1 === val.score_prediction));
             var spHtml = formatSPBadge(val.score_prediction, isWon);
 
             var tvHtml = formatTvChannels(val.field_tv_channel);
-            var tipHtml = self.options.predictions !== false ? formatTipCell(val, baseUrl, matchHref, matchLinks) : '';
+            var tipHtml = formatTipCell(val, baseUrl, matchHref, matchLinks);
             var matchTitleHtml = matchLinks
                 ? '<a href="' + escapeHtml(matchHref) + '" class="sp-event-link" target="_blank">' + escapeHtml(matchTitle) + '</a>'
                 : '<span class="sp-event-link">' + escapeHtml(matchTitle) + '</span>';
 
             html += '<tr class="sp-match-row" data-live-id="' + escapeHtml(val.event_id) + '" data-live-start="' + ((new Date(val.time)).getTime() || 0) + '" data-live-final="' + (/^(FT|OT|PEN|CNC|ABN)$/.test(window.SportsLiveScores.state(val)) ? '1' : '0') + '" data-live-prediction="' + escapeHtml(val.score_prediction) + '">';
             html += '<td class="sp-col-time">' + timeCellHtml + '</td>';
-            html += '<td class="sp-col-event"><div class="sp-match-content">' + matchTitleHtml + '<span class="sp-live-score-target">' + scoresHtml + '</span><button type="button" class="sp-details-toggle" aria-expanded="false" aria-label="Show or hide match details">Details</button></div></td>';
+            html += '<td class="sp-col-event">' + matchTitleHtml + '<span class="sp-live-score-target">' + scoresHtml + '</span></td>';
             html += '<td class="sp-col-tv">' + tvHtml + '</td>';
             html += '<td class="sp-col-tip">' + tipHtml + '</td>';
             html += '<td class="sp-col-trend">' + dropHtml + '</td>';
-            html += '<td class="sp-col-odds" aria-label="' + (showPercent ? 'Normalized implied probabilities: 1 / X / 2' : 'Decimal odds: 1 / X / 2') + '">' + oddsHtml + '</td>';
+            html += '<td class="sp-col-odds">' + oddsHtml + '</td>';
             html += '<td class="sp-col-sp">' + spHtml + '</td>';
             html += '</tr>';
         });
@@ -1922,43 +1773,6 @@
         html += '</table>';
         content.innerHTML = html;
         self.bindTipTooltips(content);
-        self.bindTooltipPositions(content);
-    };
-
-    SportsWidget.prototype.positionTooltip = function (wrap) {
-        var tip = wrap.querySelector('.sp-score-tooltip, .sp-tv-tooltip, .sp-tip-tooltip');
-        if (!tip) return;
-        var width = document.documentElement.clientWidth;
-        var height = window.innerHeight;
-        tip.style.position = 'fixed';
-        tip.style.transform = 'none';
-        tip.style.bottom = 'auto';
-        tip.style.maxWidth = Math.max(120, width - 24) + 'px';
-        tip.style.maxHeight = Math.max(120, height - 32) + 'px';
-        if (tip.classList.contains('sp-score-tooltip')) tip.style.whiteSpace = 'normal';
-        var anchor = wrap.getBoundingClientRect();
-        var box = tip.getBoundingClientRect();
-        var above = wrap.classList.contains('sp-score-wrap');
-        if (above && anchor.top < box.height + 12) above = false;
-        if (!above && anchor.bottom + box.height + 12 > height && anchor.top > box.height + 12) above = true;
-        var left = Math.max(12, Math.min(anchor.left + anchor.width / 2 - box.width / 2, width - box.width - 12));
-        var top = above ? anchor.top - box.height - 6 : anchor.bottom + 6;
-        tip.style.left = left + 'px';
-        tip.style.top = Math.max(12, Math.min(top, height - box.height - 12)) + 'px';
-        tip.style.setProperty('--sp-arrow-left', (anchor.left + anchor.width / 2 - left) + 'px');
-        tip.setAttribute('data-placement', above ? 'above' : 'below');
-    };
-
-    SportsWidget.prototype.bindTooltipPositions = function (content) {
-        var self = this;
-        content.querySelectorAll('.sp-score-wrap, .sp-tv-wrap, .sp-tip-wrap').forEach(function (wrap) {
-            if (wrap._spPositionBound) return;
-            wrap._spPositionBound = true;
-            function place() { self.activeTooltip = wrap; self.positionTooltip(wrap); }
-            wrap.addEventListener('mouseenter', place, { passive: true });
-            wrap.addEventListener('focusin', place, { passive: true });
-            wrap.addEventListener('touchstart', place, { passive: true });
-        });
     };
 
     SportsWidget.tipsCache = {};
@@ -2077,7 +1891,6 @@
         }
 
         container.innerHTML = html;
-        this.positionTooltip(wrap);
     };
 
     function autoInit() {
@@ -2090,10 +1903,7 @@
                 siteUrl: el.getAttribute('data-site') || 'donnael.com',
                 defaultSport: el.getAttribute('data-sport') || 'soccer',
                 defaultDate: el.getAttribute('data-date') || '',
-                matchLinks: el.getAttribute('data-match-links') === '1' || el.getAttribute('data-match-links') === 'true',
-                oddsDisplay: el.getAttribute('data-odds-display') === 'percent' ? 'percent' : 'odds',
-                credits: el.getAttribute('data-credits') === '1',
-                predictions: el.getAttribute('data-predictions') !== '0'
+                matchLinks: el.getAttribute('data-match-links') !== '0' && el.getAttribute('data-match-links') !== 'false'
             });
         });
     }

@@ -1,120 +1,161 @@
 {
   "provider": "TVEvents.org",
   "provider_url": "https://tvevents.org",
-  "updated_at": "2026-11-06 18:43:53 UTC",
-  "total_fixtures": 16,
+  "updated_at": "2026-11-06 18:51:19 UTC",
+  "total_fixtures": 17,
   "fixtures": [
     {
-      "title": "Yosuke Watanuki  vs  Alexandre Muller",
-      "sport": "Soccer",
-      "league": "Challenger Men Singles Taipei",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/YosukeWatanuki/AlexandreMuller/3902845/"
-    },
-    {
-      "title": "Ulaanbaatar  vs ",
+      "title": "Ulaanbaatar vs Central Stallions",
       "sport": "Soccer",
       "league": "Mongolian Premier League",
       "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Match/3903459/"
+      "url": "https://tvevents.org/Soccer.php/Ulaanbaatar---Central-Stallions/3903459/",
+      "has_tv": true,
+      "has_pred": false
     },
     {
-      "title": "Rigele Te  vs  Tianhui Zhang",
+      "title": "Chongqing Yongchuan vs Fujian Quanzhou Nanan",
       "sport": "Soccer",
-      "league": "ITF Men Singles M15 Maanshan 9",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/RigeleTe/TianhuiZhang/3903460/"
+      "league": "Chinese League One Women",
+      "time": "November 06, 2026 02:00:00",
+      "url": "https://tvevents.org/Soccer.php/Chongqing-Yongchuan---Fujian-Quanzhou-Nanan/3902525/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Millen Hurrion  vs  Xirui Han",
+      "title": "Wuhan WHSU Three Towns vs Hebei Xueruyi",
       "sport": "Soccer",
-      "league": "ITF Men Singles M15 Maanshan 9",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/MillenHurrion/XiruiHan/3903461/"
+      "league": "Chinese League One Women",
+      "time": "November 06, 2026 02:00:00",
+      "url": "https://tvevents.org/Soccer.php/Wuhan-WHSU-Three-Towns---Hebei-Xueruyi/3902526/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Maxim Zhukov  vs  Kristjan Tamm",
+      "title": "Henan Songshan Longmen vs Shanghai Shenhua",
       "sport": "Soccer",
-      "league": "ITF Men Singles M15 Maanshan 9",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/MaximZhukov/KristjanTamm/3903462/"
+      "league": "Chinese League One Women",
+      "time": "November 06, 2026 02:00:00",
+      "url": "https://tvevents.org/Soccer.php/Henan-Songshan-Longmen---Shanghai-Shenhua/3902527/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Daniil Sarksian  vs  Seong vs Chan Hong",
+      "title": "Qingdao West Coast vs Shanghai RCB B",
       "sport": "Soccer",
-      "league": "ITF Men Singles M15 Maanshan 9",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/DaniilSarksian/Seong/3903463/"
+      "league": "Chinese League One Women",
+      "time": "November 06, 2026 02:00:00",
+      "url": "https://tvevents.org/Soccer.php/Qingdao-West-Coast---Shanghai-RCB-B/3902528/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Hsiang Ti Lin  vs  Min Sun Kim",
+      "title": "Adelaide United vs Wellington Phoenix",
       "sport": "Soccer",
-      "league": "BWF World Tour Women Korea Open",
-      "time": "November 06, 2026 00:05:00",
-      "url": "https://tvevents.org/Soccer.php/HsiangTiLin/MinSunKim/3903102/"
+      "league": "Australian A-League Women",
+      "time": "November 06, 2026 03:00:00",
+      "url": "https://tvevents.org/Soccer.php/Adelaide-United---Wellington-Phoenix/3898105/",
+      "has_tv": true,
+      "has_pred": false
     },
     {
-      "title": "Edoardo Cherie Ligniere  vs  David Eichenseher",
-      "sport": "Soccer",
-      "league": "ITF Men Singles M15 Fergana 2",
-      "time": "November 06, 2026 00:30:00",
-      "url": "https://tvevents.org/Soccer.php/EdoardoCherieLigniere/DavidEichenseher/3903394/"
-    },
-    {
-      "title": "Yosuke Watanuki  vs  Alexandre Muller",
+      "title": "Northern Kahu vs Mainland Pouakai",
       "sport": "Basketball",
+      "league": "New Zealand Tauihi Basketball Women",
+      "time": "November 06, 2026 01:30:00",
+      "url": "https://tvevents.org/Basketball.php/Northern-Kahu---Mainland-Pouakai/3901559/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Tasmania JackJumpers vs New Zealand Breakers",
+      "sport": "Basketball",
+      "league": "Australian NBL",
+      "time": "November 06, 2026 03:30:00",
+      "url": "https://tvevents.org/Basketball.php/Tasmania-JackJumpers---New-Zealand-Breakers/3899146/",
+      "has_tv": true,
+      "has_pred": false
+    },
+    {
+      "title": "Bambitious Nara vs Tokushima Gambarous",
+      "sport": "Basketball",
+      "league": "Japan B League One",
+      "time": "November 06, 2026 04:05:00",
+      "url": "https://tvevents.org/Basketball.php/Bambitious-Nara---Tokushima-Gambarous/3901630/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "San Miguel Beermen vs Barangay Ginebra San Miguel",
+      "sport": "Basketball",
+      "league": "Philippines - Governors Cup",
+      "time": "November 06, 2026 04:15:00",
+      "url": "https://tvevents.org/Basketball.php/San-Miguel-Beermen---Barangay-Ginebra-San-Miguel/3901631/",
+      "has_tv": false,
+      "has_pred": true
+    },
+    {
+      "title": "Yosuke Watanuki vs Alexandre Muller",
+      "sport": "Tennis",
       "league": "Challenger Men Singles Taipei",
       "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/YosukeWatanuki/AlexandreMuller/3902845/"
+      "url": "https://tvevents.org/Tennis.php/Yosuke-Watanuki---Alexandre-Muller/3902845/",
+      "has_tv": false,
+      "has_pred": true
     },
     {
-      "title": "Ulaanbaatar  vs ",
-      "sport": "Basketball",
-      "league": "Mongolian Premier League",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Match/3903459/"
-    },
-    {
-      "title": "Rigele Te  vs  Tianhui Zhang",
-      "sport": "Basketball",
+      "title": "Rigele Te vs Tianhui Zhang",
+      "sport": "Tennis",
       "league": "ITF Men Singles M15 Maanshan 9",
       "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/RigeleTe/TianhuiZhang/3903460/"
+      "url": "https://tvevents.org/Tennis.php/Rigele-Te---Tianhui-Zhang/3903460/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Millen Hurrion  vs  Xirui Han",
-      "sport": "Basketball",
+      "title": "Millen Hurrion vs Xirui Han",
+      "sport": "Tennis",
       "league": "ITF Men Singles M15 Maanshan 9",
       "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/MillenHurrion/XiruiHan/3903461/"
+      "url": "https://tvevents.org/Tennis.php/Millen-Hurrion---Xirui-Han/3903461/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Yosuke Watanuki  vs  Alexandre Muller",
-      "sport": "Hockey",
-      "league": "Challenger Men Singles Taipei",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Hockey.php/YosukeWatanuki/AlexandreMuller/3902845/"
-    },
-    {
-      "title": "Ulaanbaatar  vs ",
-      "sport": "Hockey",
-      "league": "Mongolian Premier League",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Hockey.php/Match/3903459/"
-    },
-    {
-      "title": "Rigele Te  vs  Tianhui Zhang",
-      "sport": "Hockey",
+      "title": "Maxim Zhukov vs Kristjan Tamm",
+      "sport": "Tennis",
       "league": "ITF Men Singles M15 Maanshan 9",
       "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Hockey.php/RigeleTe/TianhuiZhang/3903460/"
+      "url": "https://tvevents.org/Tennis.php/Maxim-Zhukov---Kristjan-Tamm/3903462/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Millen Hurrion  vs  Xirui Han",
-      "sport": "Hockey",
-      "league": "ITF Men Singles M15 Maanshan 9",
-      "time": "November 06, 2026 00:00:00",
-      "url": "https://tvevents.org/Hockey.php/MillenHurrion/XiruiHan/3903461/"
+      "title": "Amur Khabarovsk vs SKA Saint Petersburg",
+      "sport": "Ice Hockey",
+      "league": "KHL",
+      "time": "November 06, 2026 04:00:00",
+      "url": "https://tvevents.org/Hockey.php/Amur-Khabarovsk---SKA-Saint-Petersburg/3900243/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Admiral Vladivostok vs Barys Astana",
+      "sport": "Ice Hockey",
+      "league": "KHL",
+      "time": "November 06, 2026 04:30:00",
+      "url": "https://tvevents.org/Hockey.php/Admiral-Vladivostok---Barys-Astana/3900244/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Ermak Angarsk vs Progress Glazov",
+      "sport": "Ice Hockey",
+      "league": "RHL",
+      "time": "November 06, 2026 06:00:00",
+      "url": "https://tvevents.org/Hockey.php/Ermak-Angarsk---Progress-Glazov/3903502/",
+      "has_tv": false,
+      "has_pred": false
     }
   ]
 }

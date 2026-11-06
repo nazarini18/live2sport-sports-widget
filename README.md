@@ -34,25 +34,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-06 18:43 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-06 18:51 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| Soccer | **Yosuke Watanuki  vs  Alexandre Muller** | Challenger Men Singles Taipei | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/YosukeWatanuki/AlexandreMuller/3902845/) |
-| Soccer | **Ulaanbaatar  vs ** | Mongolian Premier League | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Match/3903459/) |
-| Soccer | **Rigele Te  vs  Tianhui Zhang** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/RigeleTe/TianhuiZhang/3903460/) |
-| Soccer | **Millen Hurrion  vs  Xirui Han** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/MillenHurrion/XiruiHan/3903461/) |
-| Soccer | **Maxim Zhukov  vs  Kristjan Tamm** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/MaximZhukov/KristjanTamm/3903462/) |
-| Soccer | **Daniil Sarksian  vs  Seong vs Chan Hong** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/DaniilSarksian/Seong/3903463/) |
-| Soccer | **Hsiang Ti Lin  vs  Min Sun Kim** | BWF World Tour Women Korea Open | November 06, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/HsiangTiLin/MinSunKim/3903102/) |
-| Soccer | **Edoardo Cherie Ligniere  vs  David Eichenseher** | ITF Men Singles M15 Fergana 2 | November 06, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/EdoardoCherieLigniere/DavidEichenseher/3903394/) |
-| Basketball | **Yosuke Watanuki  vs  Alexandre Muller** | Challenger Men Singles Taipei | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/YosukeWatanuki/AlexandreMuller/3902845/) |
-| Basketball | **Ulaanbaatar  vs ** | Mongolian Premier League | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Match/3903459/) |
-| Basketball | **Rigele Te  vs  Tianhui Zhang** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/RigeleTe/TianhuiZhang/3903460/) |
-| Basketball | **Millen Hurrion  vs  Xirui Han** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/MillenHurrion/XiruiHan/3903461/) |
-| Hockey | **Yosuke Watanuki  vs  Alexandre Muller** | Challenger Men Singles Taipei | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/YosukeWatanuki/AlexandreMuller/3902845/) |
-| Hockey | **Ulaanbaatar  vs ** | Mongolian Premier League | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Match/3903459/) |
-| Hockey | **Rigele Te  vs  Tianhui Zhang** | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/RigeleTe/TianhuiZhang/3903460/) |
+| **Soccer** | Ulaanbaatar vs Central Stallions | Mongolian Premier League | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Ulaanbaatar---Central-Stallions/3903459/) |
+| **Soccer** | Chongqing Yongchuan vs Fujian Quanzhou Nanan | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Chongqing-Yongchuan---Fujian-Quanzhou-Nanan/3902525/) |
+| **Soccer** | Wuhan WHSU Three Towns vs Hebei Xueruyi | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Wuhan-WHSU-Three-Towns---Hebei-Xueruyi/3902526/) |
+| **Soccer** | Henan Songshan Longmen vs Shanghai Shenhua | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Henan-Songshan-Longmen---Shanghai-Shenhua/3902527/) |
+| **Soccer** | Qingdao West Coast vs Shanghai RCB B | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Qingdao-West-Coast---Shanghai-RCB-B/3902528/) |
+| **Soccer** | Adelaide United vs Wellington Phoenix | Australian A-League Women | November 06, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Adelaide-United---Wellington-Phoenix/3898105/) |
+| **Basketball** | Northern Kahu vs Mainland Pouakai | New Zealand Tauihi Basketball Women | November 06, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Northern-Kahu---Mainland-Pouakai/3901559/) |
+| **Basketball** | Tasmania JackJumpers vs New Zealand Breakers | Australian NBL | November 06, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Tasmania-JackJumpers---New-Zealand-Breakers/3899146/) |
+| **Basketball** | Bambitious Nara vs Tokushima Gambarous | Japan B League One | November 06, 2026 04:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Bambitious-Nara---Tokushima-Gambarous/3901630/) |
+| **Basketball** | San Miguel Beermen vs Barangay Ginebra San Miguel | Philippines - Governors Cup | November 06, 2026 04:15:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/San-Miguel-Beermen---Barangay-Ginebra-San-Miguel/3901631/) |
+| **Tennis** | Yosuke Watanuki vs Alexandre Muller | Challenger Men Singles Taipei | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Yosuke-Watanuki---Alexandre-Muller/3902845/) |
+| **Tennis** | Rigele Te vs Tianhui Zhang | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Rigele-Te---Tianhui-Zhang/3903460/) |
+| **Tennis** | Millen Hurrion vs Xirui Han | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Millen-Hurrion---Xirui-Han/3903461/) |
+| **Tennis** | Maxim Zhukov vs Kristjan Tamm | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Maxim-Zhukov---Kristjan-Tamm/3903462/) |
+| **Ice Hockey** | Amur Khabarovsk vs SKA Saint Petersburg | KHL | November 06, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Amur-Khabarovsk---SKA-Saint-Petersburg/3900243/) |
+| **Ice Hockey** | Admiral Vladivostok vs Barys Astana | KHL | November 06, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Admiral-Vladivostok---Barys-Astana/3900244/) |
+| **Ice Hockey** | Ermak Angarsk vs Progress Glazov | RHL | November 06, 2026 06:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Ermak-Angarsk---Progress-Glazov/3903502/) |
 
 <!-- DAILY_MATCHES_END -->
 > *For the complete 24/7 sports guide covering all worldwide leagues, head-to-head records, and channel frequencies, explore the official [TVEvents.org Match Directory](https://tvevents.org).*

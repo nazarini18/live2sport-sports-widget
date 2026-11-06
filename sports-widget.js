@@ -136,8 +136,12 @@
         ? scriptSrc.substring(0, scriptSrc.lastIndexOf('/') + 1)
         : '/widget/';
 
-    var defaultProxy = scriptDir + 'schedule_proxy.php';
-    var baseUrl = scriptDir;
+    var defaultProxy = (scriptDir.indexOf('github.io') !== -1 || scriptDir === '/widget/' || scriptDir.indexOf('http') !== 0)
+        ? 'https://tvevents.org/widget/schedule_proxy.php'
+        : (scriptDir + 'schedule_proxy.php');
+    var baseUrl = (scriptDir.indexOf('github.io') !== -1 || scriptDir === '/widget/' || scriptDir.indexOf('http') !== 0)
+        ? 'https://tvevents.org/widget/'
+        : scriptDir;
 
     // Full catalog of 27 sports matching tvevents.org & sportposter
     var sportsList = [
