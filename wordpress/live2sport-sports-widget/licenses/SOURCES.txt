@@ -1,0 +1,28 @@
+Image sources and licensing
+
+## Country flags
+
+Source: https://github.com/lipis/flag-icons
+
+Revision: ac7e0eb3259eb62aa6100c435607e2fe03896a97
+
+Original files: flags/4x3/*.svg and country.json, used to build the name mapping.
+The SVG flags are copied unchanged. The generated assets/flags.js adds aliases
+for country names used by the TVEvents schedule service, including historic
+spellings. The exact upstream MIT copyright and license notice is included in
+licenses/flag-icons-MIT.txt. MIT-licensed flags retain their upstream license.
+
+The original asset path for every vendored flag is:
+https://github.com/lipis/flag-icons/blob/ac7e0eb3259eb62aa6100c435607e2fe03896a97/flags/4x3/{filename}
+
+## Original plugin icons
+
+assets/images/flags/world.svg, assets/images/ico_tv.svg and
+assets/images/ico_prediction.svg are original geometric SVG drawings created
+for TVEvents, distributed under the plugin's GPL-2.0-or-later license.
+The neutral globe is used for unknown countries, unsupported historical
+territories, continents and sports organisations without a matching licensed
+flag. It is not a federation or team logo.
+
+All image files are served locally from the installed WordPress plugin.
+The legacy PNG flags and icons from unknown sources are not distributed.
