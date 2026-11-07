@@ -34,27 +34,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-06 18:51 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-07 11:25 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Ulaanbaatar vs Central Stallions | Mongolian Premier League | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Ulaanbaatar---Central-Stallions/3903459/) |
-| **Soccer** | Chongqing Yongchuan vs Fujian Quanzhou Nanan | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Chongqing-Yongchuan---Fujian-Quanzhou-Nanan/3902525/) |
-| **Soccer** | Wuhan WHSU Three Towns vs Hebei Xueruyi | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Wuhan-WHSU-Three-Towns---Hebei-Xueruyi/3902526/) |
-| **Soccer** | Henan Songshan Longmen vs Shanghai Shenhua | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Henan-Songshan-Longmen---Shanghai-Shenhua/3902527/) |
-| **Soccer** | Qingdao West Coast vs Shanghai RCB B | Chinese League One Women | November 06, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Qingdao-West-Coast---Shanghai-RCB-B/3902528/) |
-| **Soccer** | Adelaide United vs Wellington Phoenix | Australian A-League Women | November 06, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Adelaide-United---Wellington-Phoenix/3898105/) |
-| **Basketball** | Northern Kahu vs Mainland Pouakai | New Zealand Tauihi Basketball Women | November 06, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Northern-Kahu---Mainland-Pouakai/3901559/) |
-| **Basketball** | Tasmania JackJumpers vs New Zealand Breakers | Australian NBL | November 06, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Tasmania-JackJumpers---New-Zealand-Breakers/3899146/) |
-| **Basketball** | Bambitious Nara vs Tokushima Gambarous | Japan B League One | November 06, 2026 04:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Bambitious-Nara---Tokushima-Gambarous/3901630/) |
-| **Basketball** | San Miguel Beermen vs Barangay Ginebra San Miguel | Philippines - Governors Cup | November 06, 2026 04:15:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/San-Miguel-Beermen---Barangay-Ginebra-San-Miguel/3901631/) |
-| **Tennis** | Yosuke Watanuki vs Alexandre Muller | Challenger Men Singles Taipei | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Yosuke-Watanuki---Alexandre-Muller/3902845/) |
-| **Tennis** | Rigele Te vs Tianhui Zhang | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Rigele-Te---Tianhui-Zhang/3903460/) |
-| **Tennis** | Millen Hurrion vs Xirui Han | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Millen-Hurrion---Xirui-Han/3903461/) |
-| **Tennis** | Maxim Zhukov vs Kristjan Tamm | ITF Men Singles M15 Maanshan 9 | November 06, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Maxim-Zhukov---Kristjan-Tamm/3903462/) |
-| **Ice Hockey** | Amur Khabarovsk vs SKA Saint Petersburg | KHL | November 06, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Amur-Khabarovsk---SKA-Saint-Petersburg/3900243/) |
-| **Ice Hockey** | Admiral Vladivostok vs Barys Astana | KHL | November 06, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Admiral-Vladivostok---Barys-Astana/3900244/) |
-| **Ice Hockey** | Ermak Angarsk vs Progress Glazov | RHL | November 06, 2026 06:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Ermak-Angarsk---Progress-Glazov/3903502/) |
+| **Soccer** | Nagoya Grampus vs Kyoto Sanga | Japan J1 League | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Nagoya-Grampus---Kyoto-Sanga/3896473/) |
+| **Soccer** | Jeju vs Gwangju | South Korean K-League 1 | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Jeju---Gwangju/3896522/) |
+| **Soccer** | Yokohama F. Marinos vs Fagiano Okayama | Japan J1 League | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Yokohama-F-Marinos---Fagiano-Okayama/3898056/) |
+| **Soccer** | Seongnam Ilhwa Chunma vs Daegu | South Korean K-League 2 | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Seongnam-Ilhwa-Chunma---Daegu/3898057/) |
+| **Soccer** | Suwon vs Gyeongnam | South Korean K-League 2 | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Suwon---Gyeongnam/3898058/) |
+| **Soccer** | Albirex Niigata vs Imabari | Japan J2 League | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Albirex-Niigata---Imabari/3899297/) |
+| **Basketball** | Fujitsu Red Wave vs JX Eneos Sunflowers | Japan W League Basketball | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---JX-Eneos-Sunflowers/3902610/) |
+| **Basketball** | Changwon LG Sakers vs Goyang Sono Skygunners | KBL | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Changwon-LG-Sakers---Goyang-Sono-Skygunners/3904835/) |
+| **Basketball** | Wonju Dongbu Promy vs Seoul Samsung Thunders | KBL | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Wonju-Dongbu-Promy---Seoul-Samsung-Thunders/3904836/) |
+| **Basketball** | Busan BNK Sum vs Incheon Shinhan Bank S-Birds | WKBL | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Busan-BNK-Sum---Incheon-Shinhan-Bank-S-Birds/3904837/) |
+| **Tennis** | Yuta Shimizu vs Jan Kumstat | Challenger Men Singles Taipei | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Yuta-Shimizu---Jan-Kumstat/3904328/) |
+| **Tennis** | Dmitry Bessonov vs Chirag Duhan | ITF Men Singles M15 Fergana 2 | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Dmitry-Bessonov---Chirag-Duhan/3904812/) |
+| **Tennis** | Alexandra Shubladze vs Claire Liu | WTA Hong Kong | November 07, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Alexandra-Shubladze---Claire-Liu/3904645/) |
+| **Tennis** | Digvijay Pratap Singh vs Edoardo Cherie Ligniere | ITF Men Singles M15 Fergana 2 | November 07, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Digvijay-Pratap-Singh---Edoardo-Cherie-Ligniere/3904813/) |
+| **Ice Hockey** | South Korea vs Japan | Asia Championship Hockey | November 07, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/South-Korea---Japan/3903941/) |
+| **Ice Hockey** | Tayfun vs MHC Dynamo Moscow | MHL | November 07, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tayfun---MHC-Dynamo-Moscow/3902864/) |
+| **Ice Hockey** | Mamonty Yugry vs AKM-Junior | MHL | November 07, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Mamonty-Yugry---AKM-Junior/3902865/) |
 
 <!-- DAILY_MATCHES_END -->
 > *For the complete 24/7 sports guide covering all worldwide leagues, head-to-head records, and channel frequencies, explore the official [TVEvents.org Match Directory](https://tvevents.org).*
