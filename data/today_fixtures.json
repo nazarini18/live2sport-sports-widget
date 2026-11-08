@@ -1,161 +1,161 @@
 {
   "provider": "TVEvents.org",
   "provider_url": "https://tvevents.org",
-  "updated_at": "2026-11-07 11:25:46 UTC",
+  "updated_at": "2026-11-08 11:37:26 UTC",
   "total_fixtures": 17,
   "fixtures": [
     {
-      "title": "Nagoya Grampus vs Kyoto Sanga",
+      "title": "Vissel Kobe vs Urawa Red Diamonds",
       "sport": "Soccer",
       "league": "Japan J1 League",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Nagoya-Grampus---Kyoto-Sanga/3896473/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Vissel-Kobe---Urawa-Red-Diamonds/3898015/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Jeju vs Gwangju",
+      "title": "Machida Zelvia vs Sanfrecce Hiroshima",
+      "sport": "Soccer",
+      "league": "Japan J1 League",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Machida-Zelvia---Sanfrecce-Hiroshima/3898016/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "FC Seoul vs Ulsan HD",
       "sport": "Soccer",
       "league": "South Korean K-League 1",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Jeju---Gwangju/3896522/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/FC-Seoul---Ulsan-HD/3898017/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Yokohama F. Marinos vs Fagiano Okayama",
+      "title": "Daejeon Citizen vs Incheon United",
       "sport": "Soccer",
-      "league": "Japan J1 League",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Yokohama-F-Marinos---Fagiano-Okayama/3898056/",
+      "league": "South Korean K-League 1",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Daejeon-Citizen---Incheon-United/3898018/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Seongnam Ilhwa Chunma vs Daegu",
-      "sport": "Soccer",
-      "league": "South Korean K-League 2",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Seongnam-Ilhwa-Chunma---Daegu/3898057/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Suwon vs Gyeongnam",
+      "title": "Suwon Bluewings vs Yongin",
       "sport": "Soccer",
       "league": "South Korean K-League 2",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Suwon---Gyeongnam/3898058/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Suwon-Bluewings---Yongin/3898019/",
+      "has_tv": true,
+      "has_pred": false
+    },
+    {
+      "title": "Cheonan City vs Busan I Park",
+      "sport": "Soccer",
+      "league": "South Korean K-League 2",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Cheonan-City---Busan-I-Park/3898020/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Albirex Niigata vs Imabari",
-      "sport": "Soccer",
-      "league": "Japan J2 League",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Albirex-Niigata---Imabari/3899297/",
-      "has_tv": true,
-      "has_pred": true
+      "title": "Southern Hoiho vs Mainland Pouakai",
+      "sport": "Basketball",
+      "league": "New Zealand Tauihi Basketball Women",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Southern-Hoiho---Mainland-Pouakai/3904477/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
       "title": "Fujitsu Red Wave vs JX Eneos Sunflowers",
       "sport": "Basketball",
       "league": "Japan W League Basketball",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---JX-Eneos-Sunflowers/3902610/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---JX-Eneos-Sunflowers/3906096/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Changwon LG Sakers vs Goyang Sono Skygunners",
+      "title": "Seoul SK Knights vs Wonju Dongbu Promy",
       "sport": "Basketball",
       "league": "KBL",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Changwon-LG-Sakers---Goyang-Sono-Skygunners/3904835/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Seoul-SK-Knights---Wonju-Dongbu-Promy/3906145/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Wonju Dongbu Promy vs Seoul Samsung Thunders",
+      "title": "Ulsan Mobis Phoebus vs Anyang",
       "sport": "Basketball",
       "league": "KBL",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Wonju-Dongbu-Promy---Seoul-Samsung-Thunders/3904836/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Ulsan-Mobis-Phoebus---Anyang/3906146/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Busan BNK Sum vs Incheon Shinhan Bank S-Birds",
-      "sport": "Basketball",
-      "league": "WKBL",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Busan-BNK-Sum---Incheon-Shinhan-Bank-S-Birds/3904837/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Yuta Shimizu vs Jan Kumstat",
+      "title": "Katie Swan vs Yeon Woo Ku",
       "sport": "Tennis",
-      "league": "Challenger Men Singles Taipei",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Tennis.php/Yuta-Shimizu---Jan-Kumstat/3904328/",
+      "league": "ITF Women Singles W100 Incheon",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Tennis.php/Katie-Swan---Yeon-Woo-Ku/3906089/",
       "has_tv": false,
-      "has_pred": true
+      "has_pred": false
     },
     {
-      "title": "Dmitry Bessonov vs Chirag Duhan",
+      "title": "Digvijay Pratap Singh vs Dmitry Bessonov",
       "sport": "Tennis",
       "league": "ITF Men Singles M15 Fergana 2",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Tennis.php/Dmitry-Bessonov---Chirag-Duhan/3904812/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Tennis.php/Digvijay-Pratap-Singh---Dmitry-Bessonov/3906240/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Alexandra Shubladze vs Claire Liu",
+      "title": "Shinji Hazawa vs Dominik Palan",
       "sport": "Tennis",
-      "league": "WTA Hong Kong",
-      "time": "November 07, 2026 01:00:00",
-      "url": "https://tvevents.org/Tennis.php/Alexandra-Shubladze---Claire-Liu/3904645/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Digvijay Pratap Singh vs Edoardo Cherie Ligniere",
-      "sport": "Tennis",
-      "league": "ITF Men Singles M15 Fergana 2",
-      "time": "November 07, 2026 01:30:00",
-      "url": "https://tvevents.org/Tennis.php/Digvijay-Pratap-Singh---Edoardo-Cherie-Ligniere/3904813/",
+      "league": "Challenger Men Singles Brisbane 3",
+      "time": "November 08, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Shinji-Hazawa---Dominik-Palan/3906123/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "South Korea vs Japan",
+      "title": "Keisuke Saitoh vs Yusuke Takahashi",
+      "sport": "Tennis",
+      "league": "Challenger Men Singles Matsuyama",
+      "time": "November 08, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Keisuke-Saitoh---Yusuke-Takahashi/3906191/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "China vs Japan",
       "sport": "Ice Hockey",
       "league": "Asia Championship Hockey",
-      "time": "November 07, 2026 00:00:00",
-      "url": "https://tvevents.org/Hockey.php/South-Korea---Japan/3903941/",
+      "time": "November 08, 2026 00:00:00",
+      "url": "https://tvevents.org/Hockey.php/China---Japan/3906264/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Tayfun vs MHC Dynamo Moscow",
+      "title": "Metallurg Novokuznetsk vs Dinamo St. Petersburg",
       "sport": "Ice Hockey",
-      "league": "MHL",
-      "time": "November 07, 2026 02:00:00",
-      "url": "https://tvevents.org/Hockey.php/Tayfun---MHC-Dynamo-Moscow/3902864/",
+      "league": "VHL",
+      "time": "November 08, 2026 01:00:00",
+      "url": "https://tvevents.org/Hockey.php/Metallurg-Novokuznetsk---Dinamo-St-Petersburg/3904479/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Mamonty Yugry vs AKM-Junior",
+      "title": "Amur Khabarovsk vs Barys Astana",
       "sport": "Ice Hockey",
-      "league": "MHL",
-      "time": "November 07, 2026 03:00:00",
-      "url": "https://tvevents.org/Hockey.php/Mamonty-Yugry---AKM-Junior/3902865/",
-      "has_tv": false,
-      "has_pred": false
+      "league": "KHL",
+      "time": "November 08, 2026 02:00:00",
+      "url": "https://tvevents.org/Hockey.php/Amur-Khabarovsk---Barys-Astana/3902831/",
+      "has_tv": true,
+      "has_pred": true
     }
   ]
 }
