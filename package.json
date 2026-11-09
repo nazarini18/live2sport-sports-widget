@@ -1,0 +1,31 @@
+{
+  "name": "live2sport-sports-widget",
+  "version": "1.0.0",
+  "description": "Embeddable sports schedules, live scores, and TV listings for websites.",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://live2sport.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazarini18/live2sport-sports-widget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nazarini18/live2sport-sports-widget/issues"
+  },
+  "keywords": [
+    "sports",
+    "sports-widget",
+    "live-scores",
+    "tv-listings",
+    "fixtures"
+  ],
+  "browser": "./sports-widget.js",
+  "jsdelivr": "./sports-widget.js",
+  "unpkg": "./sports-widget.js",
+  "files": [
+    "sports-widget.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

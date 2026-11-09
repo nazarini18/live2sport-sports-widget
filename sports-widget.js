@@ -126,22 +126,8 @@
 (function () {
     "use strict";
 
-    var currentScript = document.currentScript || (function () {
-        var scripts = document.getElementsByTagName('script');
-        return scripts[scripts.length - 1];
-    })();
-
-    var scriptSrc = currentScript ? currentScript.src : '';
-    var scriptDir = (scriptSrc && scriptSrc.lastIndexOf('/') !== -1)
-        ? scriptSrc.substring(0, scriptSrc.lastIndexOf('/') + 1)
-        : '/widget/';
-
-    var defaultProxy = (scriptDir.indexOf('github.io') !== -1 || scriptDir === '/widget/' || scriptDir.indexOf('http') !== 0)
-        ? 'https://tvevents.org/widget/schedule_proxy.php'
-        : (scriptDir + 'schedule_proxy.php');
-    var baseUrl = (scriptDir.indexOf('github.io') !== -1 || scriptDir === '/widget/' || scriptDir.indexOf('http') !== 0)
-        ? 'https://tvevents.org/widget/'
-        : scriptDir;
+    var baseUrl = 'https://tvevents.org/widget/';
+    var defaultProxy = baseUrl + 'schedule_proxy.php';
 
     // Full catalog of 27 sports matching tvevents.org & sportposter
     var sportsList = [
