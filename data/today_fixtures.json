@@ -1,159 +1,159 @@
 {
   "provider": "TVEvents.org",
   "provider_url": "https://tvevents.org",
-  "updated_at": "2026-11-10 15:32:06 UTC",
+  "updated_at": "2026-11-11 12:19:19 UTC",
   "total_fixtures": 17,
   "fixtures": [
     {
-      "title": "Central Stallions vs Hunters",
+      "title": "Chernihiv vs Inhulets",
       "sport": "Soccer",
-      "league": "Mongolian Premier League",
-      "time": "November 10, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Central-Stallions---Hunters/3908022/",
+      "league": "Ukrainian Persha Liga",
+      "time": "November 11, 2026 04:30:00",
+      "url": "https://tvevents.org/Soccer.php/Chernihiv---Inhulets/3843213/",
+      "has_tv": false,
+      "has_pred": true
+    },
+    {
+      "title": "India vs Maldives",
+      "sport": "Soccer",
+      "league": "SAFF Championship",
+      "time": "November 11, 2026 04:30:00",
+      "url": "https://tvevents.org/Soccer.php/India---Maldives/3907994/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Azerbaijan U19 vs Montenegro U19",
+      "sport": "Soccer",
+      "league": "UEFA Euro U19",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Soccer.php/Azerbaijan-U19---Montenegro-U19/3908697/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Georgia U19 vs Denmark U19",
+      "sport": "Soccer",
+      "league": "UEFA Euro U19",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Soccer.php/Georgia-U19---Denmark-U19/3908698/",
+      "has_tv": false,
+      "has_pred": true
+    },
+    {
+      "title": "Kawasaki Frontale vs Kashiwa Reysol",
+      "sport": "Soccer",
+      "league": "Japan J League Cup",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Soccer.php/Kawasaki-Frontale---Kashiwa-Reysol/3908836/",
+      "has_tv": false,
+      "has_pred": true
+    },
+    {
+      "title": "Yokohama F. Marinos vs Kashima Antlers",
+      "sport": "Soccer",
+      "league": "Japan J League Cup",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Soccer.php/Yokohama-F-Marinos---Kashima-Antlers/3908837/",
+      "has_tv": false,
+      "has_pred": true
+    },
+    {
+      "title": "South East Melbourne Phoenix vs Illawarra Hawks",
+      "sport": "Basketball",
+      "league": "Australian NBL",
+      "time": "November 11, 2026 03:30:00",
+      "url": "https://tvevents.org/Basketball.php/South-East-Melbourne-Phoenix---Illawarra-Hawks/3907753/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "East Coast Bays vs Tonga",
-      "sport": "Soccer",
-      "league": "Friendly",
-      "time": "November 10, 2026 01:00:00",
-      "url": "https://tvevents.org/Soccer.php/East-Coast-Bays---Tonga/3908514/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Qatar U23 vs Singapore U23",
-      "sport": "Soccer",
-      "league": "Friendly",
-      "time": "November 10, 2026 03:00:00",
-      "url": "https://tvevents.org/Soccer.php/Qatar-U23---Singapore-U23/3904129/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Deren vs Ulaanbaatar",
-      "sport": "Soccer",
-      "league": "Mongolian Premier League",
-      "time": "November 10, 2026 03:00:00",
-      "url": "https://tvevents.org/Soccer.php/Deren---Ulaanbaatar/3908107/",
-      "has_tv": true,
-      "has_pred": false
-    },
-    {
-      "title": "Kharkiv vs Polissya",
-      "sport": "Soccer",
-      "league": "Ukranian Championship Women",
-      "time": "November 10, 2026 05:00:00",
-      "url": "https://tvevents.org/Soccer.php/Kharkiv---Polissya/3908388/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Râmnicu Vâlcea vs Vulturii Fărcășești",
-      "sport": "Soccer",
-      "league": "Club Friendly",
-      "time": "November 10, 2026 05:00:00",
-      "url": "https://tvevents.org/Soccer.php/RC3A2mnicu-VC3A2lcea---Vulturii-FC483rcC483C899eC899ti/3908976/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Perth Lynx vs Bendigo Spirit",
-      "sport": "Basketball",
-      "league": "Australian WNBL",
-      "time": "November 10, 2026 05:00:00",
-      "url": "https://tvevents.org/Basketball.php/Perth-Lynx---Bendigo-Spirit/3906833/",
-      "has_tv": true,
-      "has_pred": false
-    },
-    {
-      "title": "Ulsan Mobis Phoebus vs Goyang Sono Skygunners",
+      "title": "Changwon LG Sakers vs Seoul SK Knights",
       "sport": "Basketball",
       "league": "KBL",
-      "time": "November 10, 2026 05:00:00",
-      "url": "https://tvevents.org/Basketball.php/Ulsan-Mobis-Phoebus---Goyang-Sono-Skygunners/3907915/",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Basketball.php/Changwon-LG-Sakers---Seoul-SK-Knights/3908982/",
       "has_tv": false,
-      "has_pred": false
+      "has_pred": true
     },
     {
-      "title": "Chiba Jets vs Osaka Evessa",
+      "title": "Incheon Shinhan Bank S-Birds vs Yongin Samsung Blueminx",
       "sport": "Basketball",
-      "league": "Japan B League Premier",
-      "time": "November 10, 2026 05:05:00",
-      "url": "https://tvevents.org/Basketball.php/Chiba-Jets---Osaka-Evessa/3907879/",
+      "league": "WKBL",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Basketball.php/Incheon-Shinhan-Bank-S-Birds---Yongin-Samsung-Blueminx/3908983/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "SeaHorses Mikawa vs Shinshu Brave Warriors Nagano",
+      "title": "Bars Petropavlovsk vs ChelSU Kostanay",
       "sport": "Basketball",
-      "league": "Japan B League Premier",
-      "time": "November 10, 2026 05:05:00",
-      "url": "https://tvevents.org/Basketball.php/SeaHorses-Mikawa---Shinshu-Brave-Warriors-Nagano/3907880/",
+      "league": "Kazakh Higher League Basketball",
+      "time": "November 11, 2026 05:00:00",
+      "url": "https://tvevents.org/Basketball.php/Bars-Petropavlovsk---ChelSU-Kostanay/3910274/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Masamichi Imamura vs Taro Daniel",
+      "title": "Cadence Brace vs Janae Preston",
+      "sport": "Tennis",
+      "league": "ITF Women Singles W35 Weston Fl 2",
+      "time": "November 11, 2026 00:00:00",
+      "url": "https://tvevents.org/Tennis.php/Cadence-Brace---Janae-Preston/3908967/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Mikael Arseneault vs Alex Rybakov",
+      "sport": "Tennis",
+      "league": "ITF Men Singles M25 Montreal",
+      "time": "November 11, 2026 00:00:00",
+      "url": "https://tvevents.org/Tennis.php/Mikael-Arseneault---Alex-Rybakov/3908977/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Fajing Sun vs Billy Harris",
       "sport": "Tennis",
       "league": "Challenger Men Singles Matsuyama",
-      "time": "November 10, 2026 00:15:00",
-      "url": "https://tvevents.org/Tennis.php/Masamichi-Imamura---Taro-Daniel/3908708/",
+      "time": "November 11, 2026 00:15:00",
+      "url": "https://tvevents.org/Tennis.php/Fajing-Sun---Billy-Harris/3908958/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Natthayut Nithithananont vs Nazar Oliynykov",
+      "title": "Veerawit Kamput vs Ergi Kirkin",
       "sport": "Tennis",
       "league": "ITF Men Singles M15 Hua Hin",
-      "time": "November 10, 2026 00:30:00",
-      "url": "https://tvevents.org/Tennis.php/Natthayut-Nithithananont---Nazar-Oliynykov/3908007/",
+      "time": "November 11, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Veerawit-Kamput---Ergi-Kirkin/3909023/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "August Holmgren vs Philip Sekulic",
-      "sport": "Tennis",
-      "league": "Challenger Men Singles Brisbane 3",
-      "time": "November 10, 2026 00:40:00",
-      "url": "https://tvevents.org/Tennis.php/August-Holmgren---Philip-Sekulic/3906381/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Sohyun Park vs Naiktha Bains",
-      "sport": "Tennis",
-      "league": "ITF Women Singles W75 Brisbane 3 2026",
-      "time": "November 10, 2026 00:40:00",
-      "url": "https://tvevents.org/Tennis.php/Sohyun-Park---Naiktha-Bains/3907866/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Amurskie Tigry vs MHC Dynamo Moscow",
+      "title": "Tayfun vs SKA-1946",
       "sport": "Ice Hockey",
       "league": "MHL",
-      "time": "November 10, 2026 04:00:00",
-      "url": "https://tvevents.org/Hockey.php/Amurskie-Tigry---MHC-Dynamo-Moscow/3907235/",
+      "time": "November 11, 2026 04:00:00",
+      "url": "https://tvevents.org/Hockey.php/Tayfun---SKA-1946/3907893/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Dinamo-576 vs Leningradets",
+      "title": "Ermak Angarsk vs Sokol Novocheboksarsk",
       "sport": "Ice Hockey",
       "league": "RHL",
-      "time": "November 10, 2026 05:00:00",
-      "url": "https://tvevents.org/Hockey.php/Dinamo-576---Leningradets/3907883/",
+      "time": "November 11, 2026 06:00:00",
+      "url": "https://tvevents.org/Hockey.php/Ermak-Angarsk---Sokol-Novocheboksarsk/3908989/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Dynamo-Altay vs Dinamo St. Petersburg",
+      "title": "Dnipro Kherson vs Sokil Kyiv",
       "sport": "Ice Hockey",
-      "league": "VHL",
-      "time": "November 10, 2026 07:00:00",
-      "url": "https://tvevents.org/Hockey.php/Dynamo-Altay---Dinamo-St-Petersburg/3907236/",
+      "league": "Ukrainian UHL",
+      "time": "November 11, 2026 07:00:00",
+      "url": "https://tvevents.org/Hockey.php/Dnipro-Kherson---Sokil-Kyiv/3910159/",
       "has_tv": false,
       "has_pred": false
     }

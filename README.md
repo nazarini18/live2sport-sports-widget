@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-10 15:32 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-11 12:19 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Central Stallions vs Hunters | Mongolian Premier League | November 10, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Central-Stallions---Hunters/3908022/) |
-| **Soccer** | East Coast Bays vs Tonga | Friendly | November 10, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/East-Coast-Bays---Tonga/3908514/) |
-| **Soccer** | Qatar U23 vs Singapore U23 | Friendly | November 10, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Qatar-U23---Singapore-U23/3904129/) |
-| **Soccer** | Deren vs Ulaanbaatar | Mongolian Premier League | November 10, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Deren---Ulaanbaatar/3908107/) |
-| **Soccer** | Kharkiv vs Polissya | Ukranian Championship Women | November 10, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kharkiv---Polissya/3908388/) |
-| **Soccer** | Râmnicu Vâlcea vs Vulturii Fărcășești | Club Friendly | November 10, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/RC3A2mnicu-VC3A2lcea---Vulturii-FC483rcC483C899eC899ti/3908976/) |
-| **Basketball** | Perth Lynx vs Bendigo Spirit | Australian WNBL | November 10, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Perth-Lynx---Bendigo-Spirit/3906833/) |
-| **Basketball** | Ulsan Mobis Phoebus vs Goyang Sono Skygunners | KBL | November 10, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Ulsan-Mobis-Phoebus---Goyang-Sono-Skygunners/3907915/) |
-| **Basketball** | Chiba Jets vs Osaka Evessa | Japan B League Premier | November 10, 2026 05:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Chiba-Jets---Osaka-Evessa/3907879/) |
-| **Basketball** | SeaHorses Mikawa vs Shinshu Brave Warriors Nagano | Japan B League Premier | November 10, 2026 05:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/SeaHorses-Mikawa---Shinshu-Brave-Warriors-Nagano/3907880/) |
-| **Tennis** | Masamichi Imamura vs Taro Daniel | Challenger Men Singles Matsuyama | November 10, 2026 00:15:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Masamichi-Imamura---Taro-Daniel/3908708/) |
-| **Tennis** | Natthayut Nithithananont vs Nazar Oliynykov | ITF Men Singles M15 Hua Hin | November 10, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Natthayut-Nithithananont---Nazar-Oliynykov/3908007/) |
-| **Tennis** | August Holmgren vs Philip Sekulic | Challenger Men Singles Brisbane 3 | November 10, 2026 00:40:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/August-Holmgren---Philip-Sekulic/3906381/) |
-| **Tennis** | Sohyun Park vs Naiktha Bains | ITF Women Singles W75 Brisbane 3 2026 | November 10, 2026 00:40:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Sohyun-Park---Naiktha-Bains/3907866/) |
-| **Ice Hockey** | Amurskie Tigry vs MHC Dynamo Moscow | MHL | November 10, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Amurskie-Tigry---MHC-Dynamo-Moscow/3907235/) |
-| **Ice Hockey** | Dinamo-576 vs Leningradets | RHL | November 10, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Dinamo-576---Leningradets/3907883/) |
-| **Ice Hockey** | Dynamo-Altay vs Dinamo St. Petersburg | VHL | November 10, 2026 07:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Dynamo-Altay---Dinamo-St-Petersburg/3907236/) |
+| **Soccer** | Chernihiv vs Inhulets | Ukrainian Persha Liga | November 11, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Chernihiv---Inhulets/3843213/) |
+| **Soccer** | India vs Maldives | SAFF Championship | November 11, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/India---Maldives/3907994/) |
+| **Soccer** | Azerbaijan U19 vs Montenegro U19 | UEFA Euro U19 | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Azerbaijan-U19---Montenegro-U19/3908697/) |
+| **Soccer** | Georgia U19 vs Denmark U19 | UEFA Euro U19 | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Georgia-U19---Denmark-U19/3908698/) |
+| **Soccer** | Kawasaki Frontale vs Kashiwa Reysol | Japan J League Cup | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kawasaki-Frontale---Kashiwa-Reysol/3908836/) |
+| **Soccer** | Yokohama F. Marinos vs Kashima Antlers | Japan J League Cup | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Yokohama-F-Marinos---Kashima-Antlers/3908837/) |
+| **Basketball** | South East Melbourne Phoenix vs Illawarra Hawks | Australian NBL | November 11, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/South-East-Melbourne-Phoenix---Illawarra-Hawks/3907753/) |
+| **Basketball** | Changwon LG Sakers vs Seoul SK Knights | KBL | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Changwon-LG-Sakers---Seoul-SK-Knights/3908982/) |
+| **Basketball** | Incheon Shinhan Bank S-Birds vs Yongin Samsung Blueminx | WKBL | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Incheon-Shinhan-Bank-S-Birds---Yongin-Samsung-Blueminx/3908983/) |
+| **Basketball** | Bars Petropavlovsk vs ChelSU Kostanay | Kazakh Higher League Basketball | November 11, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Bars-Petropavlovsk---ChelSU-Kostanay/3910274/) |
+| **Tennis** | Cadence Brace vs Janae Preston | ITF Women Singles W35 Weston Fl 2 | November 11, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Cadence-Brace---Janae-Preston/3908967/) |
+| **Tennis** | Mikael Arseneault vs Alex Rybakov | ITF Men Singles M25 Montreal | November 11, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Mikael-Arseneault---Alex-Rybakov/3908977/) |
+| **Tennis** | Fajing Sun vs Billy Harris | Challenger Men Singles Matsuyama | November 11, 2026 00:15:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Fajing-Sun---Billy-Harris/3908958/) |
+| **Tennis** | Veerawit Kamput vs Ergi Kirkin | ITF Men Singles M15 Hua Hin | November 11, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Veerawit-Kamput---Ergi-Kirkin/3909023/) |
+| **Ice Hockey** | Tayfun vs SKA-1946 | MHL | November 11, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tayfun---SKA-1946/3907893/) |
+| **Ice Hockey** | Ermak Angarsk vs Sokol Novocheboksarsk | RHL | November 11, 2026 06:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Ermak-Angarsk---Sokol-Novocheboksarsk/3908989/) |
+| **Ice Hockey** | Dnipro Kherson vs Sokil Kyiv | Ukrainian UHL | November 11, 2026 07:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Dnipro-Kherson---Sokil-Kyiv/3910159/) |
 
 <!-- DAILY_MATCHES_END -->
 
