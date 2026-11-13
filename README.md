@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-12 13:28 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-13 12:45 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | New Zealand vs India | Friendly | November 12, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/New-Zealand---India/3902996/) |
-| **Soccer** | Thailand U23 vs Qatar U23 | Friendly | November 12, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Thailand-U23---Qatar-U23/3904063/) |
-| **Soccer** | Wests APIA vs Adelaide City | Australian Championship | November 12, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Wests-APIA---Adelaide-City/3906299/) |
-| **Soccer** | Kazakhstan U21 vs Belarus U21 | Friendly | November 12, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kazakhstan-U21---Belarus-U21/3910900/) |
-| **Soccer** | Górnik Zabrze vs Polonia Bytom | Club Friendly | November 12, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/GC3B3rnik-Zabrze---Polonia-Bytom/3909751/) |
-| **Soccer** | RB Leipzig vs Mladá Boleslav | Club Friendly | November 12, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/RB-Leipzig---MladC3A1-Boleslav/3905519/) |
-| **Basketball** | Northern Kahu vs Tokomanawa Queens | New Zealand Tauihi Basketball Women | November 12, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Northern-Kahu---Tokomanawa-Queens/3884819/) |
-| **Basketball** | Tasmania Jewels vs Southside Flyers | Australian WNBL | November 12, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Tasmania-Jewels---Southside-Flyers/3907853/) |
-| **Basketball** | Adelaide 36ers vs Melbourne United | Australian NBL | November 12, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Adelaide-36ers---Melbourne-United/3907771/) |
-| **Basketball** | Daegu KOGAS vs Goyang Sono Skygunners | KBL | November 12, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Daegu-KOGAS---Goyang-Sono-Skygunners/3910499/) |
-| **Tennis** | Lorenzo Lorusso vs Dong Ju Kim | ITF Men Singles M15 Maanshan 10 | November 12, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Lorenzo-Lorusso---Dong-Ju-Kim/3910696/) |
-| **Tennis** | Jiayu Xu vs Arina Varaksina | ITF Women Singles W15 Maanshan 9 | November 12, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Jiayu-Xu---Arina-Varaksina/3910868/) |
-| **Tennis** | Xinle Geng vs Ikumi Yamazaki | ITF Women Singles W15 Maanshan 9 | November 12, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Xinle-Geng---Ikumi-Yamazaki/3910869/) |
-| **Tennis** | Astra Sharma vs Emerson Jones | ITF Women Singles W75 Brisbane 3 | November 12, 2026 00:40:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Astra-Sharma---Emerson-Jones/3910405/) |
-| **Ice Hockey** | Tayfun vs SKA-1946 | MHL | November 12, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tayfun---SKA-1946/3908997/) |
-| **Ice Hockey** | Anyang Halla vs Yokohama GRITS | Asia League Ice Hockey | November 12, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Anyang-Halla---Yokohama-GRITS/3907933/) |
-| **Ice Hockey** | Považská Bystrica vs Slovakia U18 | Slovak 1 Liga Hockey | November 12, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/PovaC5BEskC3A1-Bystrica---Slovakia-U18/3911447/) |
+| **Soccer** | Ulaanbaatar vs Hunters | Mongolian Premier League | November 13, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Ulaanbaatar---Hunters/3911959/) |
+| **Soccer** | Deren vs Central Stallions | Mongolian Premier League | November 13, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Deren---Central-Stallions/3911765/) |
+| **Soccer** | Oakleigh Cannons vs Marconi Stallions | Australian Championship | November 13, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Oakleigh-Cannons---Marconi-Stallions/3907380/) |
+| **Soccer** | Preston Lions vs Queensland Lions | Australian Championship | November 13, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Preston-Lions---Queensland-Lions/3907381/) |
+| **Soccer** | Mladá Boleslav vs Vysočina Jihlava | Club Friendly | November 13, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/MladC3A1-Boleslav---VysoC48Dina-Jihlava/3906237/) |
+| **Soccer** | Prykarpattia Ivano-Frankivsk vs Kolos Kovalivka 2 | Ukrainian Persha Liga | November 13, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Prykarpattia-Ivano-Frankivsk---Kolos-Kovalivka-2/3908699/) |
+| **Basketball** | New Zealand Breakers vs Brisbane Bullets | Australian NBL | November 13, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/New-Zealand-Breakers---Brisbane-Bullets/3907783/) |
+| **Basketball** | Southern Hoiho vs Tauranga Whai | New Zealand Tauihi Basketball Women | November 13, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Southern-Hoiho---Tauranga-Whai/3910393/) |
+| **Basketball** | Geelong Venom vs Perth Lynx | Australian WNBL | November 13, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Geelong-Venom---Perth-Lynx/3909944/) |
+| **Basketball** | Cairns Taipans vs Sydney Kings | Australian NBL | November 13, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Cairns-Taipans---Sydney-Kings/3907784/) |
+| **Tennis** | Sasa Markovic vs Arthur Gea | ITF M25 Heraklion 2 Men | November 13, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Sasa-Markovic---Arthur-Gea/2872707/) |
+| **Tennis** | Hao Sheng Koay vs Azuma Visaya | ITF Men Singles M25 Heraklion 2 2023 | November 13, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Hao-Sheng-Koay---Azuma-Visaya/3911701/) |
+| **Tennis** | Akira Santillan vs Christian Langmo | Challenger Men Singles Brisbane 3 | November 13, 2026 01:45:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Akira-Santillan---Christian-Langmo/3911733/) |
+| **Tennis** | Diana Simionescu vs Andreea Prisacariu | ITF Women Singles W15 Antalya 7 | November 13, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Diana-Simionescu---Andreea-Prisacariu/3911997/) |
+| **Ice Hockey** | Sakhalin vs Biryusa Krasnoyarsk | Russian WHL | November 13, 2026 02:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Sakhalin---Biryusa-Krasnoyarsk/3911590/) |
+| **Ice Hockey** | Sakhalinskie Akuly vs MHC Dynamo Moscow | MHL | November 13, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Sakhalinskie-Akuly---MHC-Dynamo-Moscow/3907509/) |
+| **Ice Hockey** | Dynamo-Neva vs Agidel Ufa | Russian WHL | November 13, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Dynamo-Neva---Agidel-Ufa/3911591/) |
 
 <!-- DAILY_MATCHES_END -->
 
