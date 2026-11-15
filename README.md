@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-14 11:52 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-15 12:24 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Albirex Niigata vs Tegevajaro Miyazaki | Japan J2 League | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Albirex-Niigata---Tegevajaro-Miyazaki/3906173/) |
-| **Soccer** | Omiya Ardija vs Montedio Yamagata | Japan J2 League | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Omiya-Ardija---Montedio-Yamagata/3907348/) |
-| **Soccer** | Shonan Bellmare vs Yokohama FC | Japan J2 League | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Shonan-Bellmare---Yokohama-FC/3907349/) |
-| **Soccer** | Fujieda MYFC vs Ventforet Kofu | Japan J2 League | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Fujieda-MYFC---Ventforet-Kofu/3907350/) |
-| **Soccer** | Oita Trinita vs Tochigi City | Japan J2 League | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Oita-Trinita---Tochigi-City/3907351/) |
-| **Soccer** | Fukushima United vs Sagamihara | Japan J3 League | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Fukushima-United---Sagamihara/3908055/) |
-| **Basketball** | Chanson V-Magic vs Toyota Antelopes | Japan W League Basketball | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Chanson-V-Magic---Toyota-Antelopes/3911384/) |
-| **Basketball** | Jeonju KCC Egis vs Seoul SK Knights | KBL | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Jeonju-KCC-Egis---Seoul-SK-Knights/3913014/) |
-| **Basketball** | Changwon LG Sakers vs Ulsan Mobis Phoebus | KBL | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Changwon-LG-Sakers---Ulsan-Mobis-Phoebus/3913015/) |
-| **Basketball** | Fujitsu Red Wave vs Toyota Boshoku Sunshine Rabbits | Japan W League Basketball | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---Toyota-Boshoku-Sunshine-Rabbits/3913066/) |
-| **Tennis** | Alan Wazny vs Stefan Adrian Andreescu | ITF Men Singles M15 Antalya 7 | November 14, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Alan-Wazny---Stefan-Adrian-Andreescu/3913416/) |
-| **Tennis** | Dmitry Popko vs Dragos Nicolae Madaras | ITF Men Singles M15 Antalya 7 | November 14, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Dmitry-Popko---Dragos-Nicolae-Madaras/3914378/) |
-| **Tennis** | Michele Ribecai vs Henry Searle | Challenger Men Singles Hersonissos 3 | November 14, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Michele-Ribecai---Henry-Searle/3913171/) |
-| **Tennis** | Ane Mintegi Del Olmo vs Lucia Cortez Llorca | ITF Women Singles W35 Heraklion 3 | November 14, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Ane-Mintegi-Del-Olmo---Lucia-Cortez-Llorca/3913348/) |
-| **Ice Hockey** | Nikkō Ice Bucks vs Stars Kobe | Asia League Ice Hockey | November 14, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/NikkC58D-Ice-Bucks---Stars-Kobe/3910367/) |
-| **Ice Hockey** | Amurskie Tigry vs SKA-1946 | MHL | November 14, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Amurskie-Tigry---SKA-1946/3911650/) |
-| **Ice Hockey** | Anyang Halla vs Yokohama GRITS | Asia League Ice Hockey | November 14, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Anyang-Halla---Yokohama-GRITS/3911796/) |
+| **Soccer** | Kataller Toyama vs Tokushima Vortis | Japan J2 League | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kataller-Toyama---Tokushima-Vortis/3907323/) |
+| **Soccer** | Imabari vs Júbilo Iwata | Japan J2 League | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Imabari---JC3BAbilo-Iwata/3907324/) |
+| **Soccer** | SKA Khabarovsk vs Leningradets | Russian FNL | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/SKA-Khabarovsk---Leningradets/3907735/) |
+| **Soccer** | Kamatamare Sanuki vs Renofa Yamaguchi | Japan J3 League | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kamatamare-Sanuki---Renofa-Yamaguchi/3909228/) |
+| **Soccer** | Zweigen Kanazawa vs Roasso Kumamoto | Japan J3 League | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Zweigen-Kanazawa---Roasso-Kumamoto/3909229/) |
+| **Soccer** | Nagano Parceiro vs Ehime | Japan J3 League | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Nagano-Parceiro---Ehime/3909230/) |
+| **Basketball** | Goyang Sono Skygunners vs Wonju Dongbu Promy | KBL | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Goyang-Sono-Skygunners---Wonju-Dongbu-Promy/3914619/) |
+| **Basketball** | Chanson V-Magic vs Toyota Antelopes | Japan W League Basketball | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Chanson-V-Magic---Toyota-Antelopes/3914769/) |
+| **Basketball** | Fujitsu Red Wave vs Toyota Boshoku Sunshine Rabbits | Japan W League Basketball | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---Toyota-Boshoku-Sunshine-Rabbits/3915220/) |
+| **Basketball** | Iwate Big Bulls vs Passlab Yamagata Wyverns | Japan B League One | November 15, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Iwate-Big-Bulls---Passlab-Yamagata-Wyverns/3914770/) |
+| **Tennis** | Jason Jung vs Herman Hoeyeraal | Challenger Men Singles Sydney | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Jason-Jung---Herman-Hoeyeraal/3915080/) |
+| **Tennis** | Dimitris Sakellaridis vs Toya Ishikawa | Challenger Men Singles Kobe | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Dimitris-Sakellaridis---Toya-Ishikawa/3915124/) |
+| **Tennis** | Yuta Kikuchi vs Taisei Ichikawa | Challenger Men Singles Kobe | November 15, 2026 00:55:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Yuta-Kikuchi---Taisei-Ichikawa/3915009/) |
+| **Tennis** | Renta Tokuda vs Yunseong Chung | Challenger Men Singles Kobe | November 15, 2026 01:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Renta-Tokuda---Yunseong-Chung/3915010/) |
+| **Ice Hockey** | Nikkō Ice Bucks vs Stars Kobe | Asia League Ice Hockey | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/NikkC58D-Ice-Bucks---Stars-Kobe/3914783/) |
+| **Ice Hockey** | Anyang Halla vs Yokohama GRITS | Asia League Ice Hockey | November 15, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Anyang-Halla---Yokohama-GRITS/3914827/) |
+| **Ice Hockey** | Kuznetskie Medvedi vs Belye Medvedi | MHL | November 15, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Kuznetskie-Medvedi---Belye-Medvedi/3912989/) |
 
 <!-- DAILY_MATCHES_END -->
 

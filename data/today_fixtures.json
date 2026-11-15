@@ -1,87 +1,78 @@
 {
   "provider": "TVEvents.org",
   "provider_url": "https://tvevents.org",
-  "updated_at": "2026-11-14 11:52:40 UTC",
+  "updated_at": "2026-11-15 12:24:09 UTC",
   "total_fixtures": 17,
   "fixtures": [
     {
-      "title": "Albirex Niigata vs Tegevajaro Miyazaki",
+      "title": "Kataller Toyama vs Tokushima Vortis",
       "sport": "Soccer",
       "league": "Japan J2 League",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Albirex-Niigata---Tegevajaro-Miyazaki/3906173/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Kataller-Toyama---Tokushima-Vortis/3907323/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Omiya Ardija vs Montedio Yamagata",
+      "title": "Imabari vs Júbilo Iwata",
       "sport": "Soccer",
       "league": "Japan J2 League",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Omiya-Ardija---Montedio-Yamagata/3907348/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Imabari---JC3BAbilo-Iwata/3907324/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Shonan Bellmare vs Yokohama FC",
+      "title": "SKA Khabarovsk vs Leningradets",
       "sport": "Soccer",
-      "league": "Japan J2 League",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Shonan-Bellmare---Yokohama-FC/3907349/",
+      "league": "Russian FNL",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/SKA-Khabarovsk---Leningradets/3907735/",
       "has_tv": true,
-      "has_pred": true
+      "has_pred": false
     },
     {
-      "title": "Fujieda MYFC vs Ventforet Kofu",
-      "sport": "Soccer",
-      "league": "Japan J2 League",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Fujieda-MYFC---Ventforet-Kofu/3907350/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Oita Trinita vs Tochigi City",
-      "sport": "Soccer",
-      "league": "Japan J2 League",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Oita-Trinita---Tochigi-City/3907351/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Fukushima United vs Sagamihara",
+      "title": "Kamatamare Sanuki vs Renofa Yamaguchi",
       "sport": "Soccer",
       "league": "Japan J3 League",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Fukushima-United---Sagamihara/3908055/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Kamatamare-Sanuki---Renofa-Yamaguchi/3909228/",
       "has_tv": true,
       "has_pred": true
+    },
+    {
+      "title": "Zweigen Kanazawa vs Roasso Kumamoto",
+      "sport": "Soccer",
+      "league": "Japan J3 League",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Zweigen-Kanazawa---Roasso-Kumamoto/3909229/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Nagano Parceiro vs Ehime",
+      "sport": "Soccer",
+      "league": "Japan J3 League",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Nagano-Parceiro---Ehime/3909230/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Goyang Sono Skygunners vs Wonju Dongbu Promy",
+      "sport": "Basketball",
+      "league": "KBL",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Goyang-Sono-Skygunners---Wonju-Dongbu-Promy/3914619/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
       "title": "Chanson V-Magic vs Toyota Antelopes",
       "sport": "Basketball",
       "league": "Japan W League Basketball",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Chanson-V-Magic---Toyota-Antelopes/3911384/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Jeonju KCC Egis vs Seoul SK Knights",
-      "sport": "Basketball",
-      "league": "KBL",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Jeonju-KCC-Egis---Seoul-SK-Knights/3913014/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Changwon LG Sakers vs Ulsan Mobis Phoebus",
-      "sport": "Basketball",
-      "league": "KBL",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Changwon-LG-Sakers---Ulsan-Mobis-Phoebus/3913015/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Chanson-V-Magic---Toyota-Antelopes/3914769/",
       "has_tv": false,
       "has_pred": false
     },
@@ -89,44 +80,53 @@
       "title": "Fujitsu Red Wave vs Toyota Boshoku Sunshine Rabbits",
       "sport": "Basketball",
       "league": "Japan W League Basketball",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---Toyota-Boshoku-Sunshine-Rabbits/3913066/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---Toyota-Boshoku-Sunshine-Rabbits/3915220/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Alan Wazny vs Stefan Adrian Andreescu",
-      "sport": "Tennis",
-      "league": "ITF Men Singles M15 Antalya 7",
-      "time": "November 14, 2026 02:00:00",
-      "url": "https://tvevents.org/Tennis.php/Alan-Wazny---Stefan-Adrian-Andreescu/3913416/",
+      "title": "Iwate Big Bulls vs Passlab Yamagata Wyverns",
+      "sport": "Basketball",
+      "league": "Japan B League One",
+      "time": "November 15, 2026 00:05:00",
+      "url": "https://tvevents.org/Basketball.php/Iwate-Big-Bulls---Passlab-Yamagata-Wyverns/3914770/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Dmitry Popko vs Dragos Nicolae Madaras",
+      "title": "Jason Jung vs Herman Hoeyeraal",
       "sport": "Tennis",
-      "league": "ITF Men Singles M15 Antalya 7",
-      "time": "November 14, 2026 02:00:00",
-      "url": "https://tvevents.org/Tennis.php/Dmitry-Popko---Dragos-Nicolae-Madaras/3914378/",
+      "league": "Challenger Men Singles Sydney",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Tennis.php/Jason-Jung---Herman-Hoeyeraal/3915080/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Michele Ribecai vs Henry Searle",
+      "title": "Dimitris Sakellaridis vs Toya Ishikawa",
       "sport": "Tennis",
-      "league": "Challenger Men Singles Hersonissos 3",
-      "time": "November 14, 2026 03:00:00",
-      "url": "https://tvevents.org/Tennis.php/Michele-Ribecai---Henry-Searle/3913171/",
+      "league": "Challenger Men Singles Kobe",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Tennis.php/Dimitris-Sakellaridis---Toya-Ishikawa/3915124/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Ane Mintegi Del Olmo vs Lucia Cortez Llorca",
+      "title": "Yuta Kikuchi vs Taisei Ichikawa",
       "sport": "Tennis",
-      "league": "ITF Women Singles W35 Heraklion 3",
-      "time": "November 14, 2026 03:00:00",
-      "url": "https://tvevents.org/Tennis.php/Ane-Mintegi-Del-Olmo---Lucia-Cortez-Llorca/3913348/",
+      "league": "Challenger Men Singles Kobe",
+      "time": "November 15, 2026 00:55:00",
+      "url": "https://tvevents.org/Tennis.php/Yuta-Kikuchi---Taisei-Ichikawa/3915009/",
+      "has_tv": false,
+      "has_pred": true
+    },
+    {
+      "title": "Renta Tokuda vs Yunseong Chung",
+      "sport": "Tennis",
+      "league": "Challenger Men Singles Kobe",
+      "time": "November 15, 2026 01:05:00",
+      "url": "https://tvevents.org/Tennis.php/Renta-Tokuda---Yunseong-Chung/3915010/",
       "has_tv": false,
       "has_pred": false
     },
@@ -134,17 +134,8 @@
       "title": "Nikkō Ice Bucks vs Stars Kobe",
       "sport": "Ice Hockey",
       "league": "Asia League Ice Hockey",
-      "time": "November 14, 2026 00:00:00",
-      "url": "https://tvevents.org/Hockey.php/NikkC58D-Ice-Bucks---Stars-Kobe/3910367/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Amurskie Tigry vs SKA-1946",
-      "sport": "Ice Hockey",
-      "league": "MHL",
-      "time": "November 14, 2026 02:00:00",
-      "url": "https://tvevents.org/Hockey.php/Amurskie-Tigry---SKA-1946/3911650/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Hockey.php/NikkC58D-Ice-Bucks---Stars-Kobe/3914783/",
       "has_tv": false,
       "has_pred": false
     },
@@ -152,8 +143,17 @@
       "title": "Anyang Halla vs Yokohama GRITS",
       "sport": "Ice Hockey",
       "league": "Asia League Ice Hockey",
-      "time": "November 14, 2026 02:00:00",
-      "url": "https://tvevents.org/Hockey.php/Anyang-Halla---Yokohama-GRITS/3911796/",
+      "time": "November 15, 2026 00:00:00",
+      "url": "https://tvevents.org/Hockey.php/Anyang-Halla---Yokohama-GRITS/3914827/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Kuznetskie Medvedi vs Belye Medvedi",
+      "sport": "Ice Hockey",
+      "league": "MHL",
+      "time": "November 15, 2026 01:00:00",
+      "url": "https://tvevents.org/Hockey.php/Kuznetskie-Medvedi---Belye-Medvedi/3912989/",
       "has_tv": false,
       "has_pred": false
     }
