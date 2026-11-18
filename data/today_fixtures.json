@@ -1,161 +1,161 @@
 {
   "provider": "TVEvents.org",
   "provider_url": "https://tvevents.org",
-  "updated_at": "2026-11-17 14:00:43 UTC",
+  "updated_at": "2026-11-18 13:35:55 UTC",
   "total_fixtures": 17,
   "fixtures": [
     {
-      "title": "Tahiti vs Cook Islands",
+      "title": "MyNavi Sendai vs NTV Beleza",
       "sport": "Soccer",
-      "league": "Friendly",
-      "time": "November 17, 2026 00:30:00",
-      "url": "https://tvevents.org/Soccer.php/Tahiti---Cook-Islands/3914838/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Yemen vs Malaysia",
-      "sport": "Soccer",
-      "league": "Friendly",
-      "time": "November 17, 2026 01:00:00",
-      "url": "https://tvevents.org/Soccer.php/Yemen---Malaysia/3909044/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Tajikistan U19 vs Vietnam U19",
-      "sport": "Soccer",
-      "league": "Friendly",
-      "time": "November 17, 2026 02:30:00",
-      "url": "https://tvevents.org/Soccer.php/Tajikistan-U19---Vietnam-U19/3917329/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Brunei vs Oman",
-      "sport": "Soccer",
-      "league": "Kings Cup Thailand",
-      "time": "November 17, 2026 04:00:00",
-      "url": "https://tvevents.org/Soccer.php/Brunei---Oman/3918299/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Pardubice B vs Horní Ředice",
-      "sport": "Soccer",
-      "league": "Czech CFL Group B",
-      "time": "November 17, 2026 04:15:00",
-      "url": "https://tvevents.org/Soccer.php/Pardubice-B---HornC3AD-C598edice/3917175/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Singapore vs Brazil",
-      "sport": "Soccer",
-      "league": "Friendly",
-      "time": "November 17, 2026 05:00:00",
-      "url": "https://tvevents.org/Soccer.php/Singapore---Brazil/3909045/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Adelaide Lightning vs Geelong Venom",
-      "sport": "Basketball",
-      "league": "Australian WNBL",
-      "time": "November 17, 2026 03:00:00",
-      "url": "https://tvevents.org/Basketball.php/Adelaide-Lightning---Geelong-Venom/3913826/",
+      "league": "Japan WE League Women",
+      "time": "November 18, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/MyNavi-Sendai---NTV-Beleza/3918206/",
       "has_tv": true,
       "has_pred": false
     },
     {
-      "title": "Wonju Dongbu Promy vs Anyang",
-      "sport": "Basketball",
-      "league": "KBL",
-      "time": "November 17, 2026 05:00:00",
-      "url": "https://tvevents.org/Basketball.php/Wonju-Dongbu-Promy---Anyang/3917130/",
+      "title": "Albirex Niigata vs Chifure AS Elfen Saitama",
+      "sport": "Soccer",
+      "league": "Japan WE League Women",
+      "time": "November 18, 2026 00:00:00",
+      "url": "https://tvevents.org/Soccer.php/Albirex-Niigata---Chifure-AS-Elfen-Saitama/3918207/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Cerezo Osaka vs Urawa Red Diamonds",
+      "sport": "Soccer",
+      "league": "Japan WE League Women",
+      "time": "November 18, 2026 04:30:00",
+      "url": "https://tvevents.org/Soccer.php/Cerezo-Osaka---Urawa-Red-Diamonds/3918300/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "St. George Willawong vs Logan Roos",
+      "sport": "Soccer",
+      "league": "Club Friendly",
+      "time": "November 18, 2026 04:45:00",
+      "url": "https://tvevents.org/Soccer.php/St-George-Willawong---Logan-Roos/3919002/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Guzide Gebzespor vs Ankaraspor",
+      "sport": "Soccer",
+      "league": "Turkish Second League White Group",
+      "time": "November 18, 2026 05:00:00",
+      "url": "https://tvevents.org/Soccer.php/Guzide-Gebzespor---Ankaraspor/3913170/",
       "has_tv": false,
       "has_pred": true
     },
     {
-      "title": "Nagasaki Velca vs SeaHorses Mikawa",
+      "title": "Metalurh Zaporizhya U19 vs LNZ U19",
+      "sport": "Soccer",
+      "league": "Ukrainian U19 League",
+      "time": "November 18, 2026 05:00:00",
+      "url": "https://tvevents.org/Soccer.php/Metalurh-Zaporizhya-U19---LNZ-U19/3917973/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "New Zealand Breakers vs South East Melbourne Phoenix",
       "sport": "Basketball",
-      "league": "Japan B League Premier",
-      "time": "November 17, 2026 05:05:00",
-      "url": "https://tvevents.org/Basketball.php/Nagasaki-Velca---SeaHorses-Mikawa/3917131/",
-      "has_tv": false,
+      "league": "Australian NBL",
+      "time": "November 18, 2026 01:30:00",
+      "url": "https://tvevents.org/Basketball.php/New-Zealand-Breakers---South-East-Melbourne-Phoenix/3916949/",
+      "has_tv": true,
       "has_pred": false
     },
     {
-      "title": "Fukuoka Rizing vs Tokushima Gambarous",
+      "title": "Xinjiang Flying Tigers vs Hefei Storm",
       "sport": "Basketball",
-      "league": "Japan B League One",
-      "time": "November 17, 2026 05:05:00",
-      "url": "https://tvevents.org/Basketball.php/Fukuoka-Rizing---Tokushima-Gambarous/3917442/",
+      "league": "Chinese CBA Club Cup",
+      "time": "November 18, 2026 02:30:00",
+      "url": "https://tvevents.org/Basketball.php/Xinjiang-Flying-Tigers---Hefei-Storm/3918712/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Mitsuki Wei Kang Leong vs Rio Noguchi",
-      "sport": "Tennis",
-      "league": "Challenger Men Singles Kobe",
-      "time": "November 17, 2026 00:00:00",
-      "url": "https://tvevents.org/Tennis.php/Mitsuki-Wei-Kang-Leong---Rio-Noguchi/3915131/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Moerani Bouzige vs Juncheng Shang",
-      "sport": "Tennis",
-      "league": "Challenger Men Singles Sydney",
-      "time": "November 17, 2026 00:00:00",
-      "url": "https://tvevents.org/Tennis.php/Moerani-Bouzige---Juncheng-Shang/3915479/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Dane Sweeny vs Christian Langmo",
-      "sport": "Tennis",
-      "league": "Challenger Men Singles Sydney",
-      "time": "November 17, 2026 00:00:00",
-      "url": "https://tvevents.org/Tennis.php/Dane-Sweeny---Christian-Langmo/3915482/",
+      "title": "Guangzhou Long-Lions vs Jilin Northeast Tigers",
+      "sport": "Basketball",
+      "league": "Chinese CBA Club Cup",
+      "time": "November 18, 2026 02:30:00",
+      "url": "https://tvevents.org/Basketball.php/Guangzhou-Long-Lions---Jilin-Northeast-Tigers/3918713/",
       "has_tv": false,
       "has_pred": true
     },
     {
-      "title": "Kaichi Uchida vs Benjamin Hassan",
-      "sport": "Tennis",
-      "league": "Challenger Men Singles Kobe",
-      "time": "November 17, 2026 00:00:00",
-      "url": "https://tvevents.org/Tennis.php/Kaichi-Uchida---Benjamin-Hassan/3917145/",
+      "title": "Beijing Royal Fighters vs Jiangxi Daqian",
+      "sport": "Basketball",
+      "league": "Chinese CBA Club Cup",
+      "time": "November 18, 2026 02:30:00",
+      "url": "https://tvevents.org/Basketball.php/Beijing-Royal-Fighters---Jiangxi-Daqian/3919074/",
       "has_tv": false,
-      "has_pred": true
+      "has_pred": false
     },
     {
-      "title": "Dukla Jihlava U20 vs Motor České Budějovice U20",
+      "title": "Congsup Congcar vs Daisuke Sumizawa",
+      "sport": "Tennis",
+      "league": "ITF Men Singles M15 Hua Hin 2",
+      "time": "November 18, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Congsup-Congcar---Daisuke-Sumizawa/3918590/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Papangkorn Bunyarit vs Alexey Aleshchev",
+      "sport": "Tennis",
+      "league": "ITF Men Singles M15 Hua Hin 2",
+      "time": "November 18, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Papangkorn-Bunyarit---Alexey-Aleshchev/3918591/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Hong Lin Fu vs Jordan Hasson",
+      "sport": "Tennis",
+      "league": "ITF Men Singles M15 Hua Hin 2",
+      "time": "November 18, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Hong-Lin-Fu---Jordan-Hasson/3918592/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "James Van Herzeele vs Veerawit Kamput",
+      "sport": "Tennis",
+      "league": "ITF Men Singles M15 Hua Hin 2",
+      "time": "November 18, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/James-Van-Herzeele---Veerawit-Kamput/3918593/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Amurskie Tigry vs Dinamo St. Petersburg",
       "sport": "Ice Hockey",
-      "league": "Czech ELJ",
-      "time": "November 17, 2026 06:30:00",
-      "url": "https://tvevents.org/Hockey.php/Dukla-Jihlava-U20---Motor-C48CeskC3A9-BudC49Bjovice-U20/3915322/",
+      "league": "MHL",
+      "time": "November 18, 2026 04:00:00",
+      "url": "https://tvevents.org/Hockey.php/Amurskie-Tigry---Dinamo-St-Petersburg/3917223/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Sibir Novosibirsk vs Traktor Chelyabinsk",
+      "title": "Kuznetskie Medvedi vs Avto",
       "sport": "Ice Hockey",
-      "league": "KHL",
-      "time": "November 17, 2026 07:30:00",
-      "url": "https://tvevents.org/Hockey.php/Sibir-Novosibirsk---Traktor-Chelyabinsk/3914337/",
-      "has_tv": true,
-      "has_pred": true
+      "league": "MHL",
+      "time": "November 18, 2026 06:30:00",
+      "url": "https://tvevents.org/Hockey.php/Kuznetskie-Medvedi---Avto/3917224/",
+      "has_tv": false,
+      "has_pred": false
     },
     {
-      "title": "Gornyak-UGMK vs Buran Voronezh",
+      "title": "Krasnoyarskie Rysi vs Omskye Yastreby",
       "sport": "Ice Hockey",
-      "league": "VHL",
-      "time": "November 17, 2026 08:30:00",
-      "url": "https://tvevents.org/Hockey.php/Gornyak-UGMK---Buran-Voronezh/3916187/",
+      "league": "MHL",
+      "time": "November 18, 2026 06:30:00",
+      "url": "https://tvevents.org/Hockey.php/Krasnoyarskie-Rysi---Omskye-Yastreby/3917225/",
       "has_tv": false,
-      "has_pred": true
+      "has_pred": false
     }
   ]
 }
