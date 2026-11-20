@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-19 14:02 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-20 13:45 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Western Springs vs Tonga | Friendly | November 19, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Western-Springs---Tonga/3919420/) |
-| **Soccer** | Preston Lions vs South Hobart | Australian Championship | November 19, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Preston-Lions---South-Hobart/3915067/) |
-| **Soccer** | Queensland Lions vs Wollongong Wolves | Australian Championship | November 19, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Queensland-Lions---Wollongong-Wolves/3915068/) |
-| **Soccer** | Omiya Ardija vs INAC Kobe Leonessa | Japan WE League Women | November 19, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Omiya-Ardija---INAC-Kobe-Leonessa/3918339/) |
-| **Soccer** | MOIK Baku vs Səbail | Azerbaijan First Division | November 19, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/MOIK-Baku---SC999bail/3918640/) |
-| **Soccer** | Dempo vs Shillong Lajong | Indian I-League | November 19, 2026 05:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Dempo---Shillong-Lajong/3918641/) |
-| **Basketball** | Fujian Xunxing vs Beijing Royal Fighters | Chinese CBA Club Cup | November 19, 2026 02:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Fujian-Xunxing---Beijing-Royal-Fighters/3920081/) |
-| **Basketball** | Jilin Northeast Tigers vs Hong Kong Bulls | Chinese CBA Club Cup | November 19, 2026 02:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Jilin-Northeast-Tigers---Hong-Kong-Bulls/3920082/) |
-| **Basketball** | Nanjing Monkey King vs Xinjiang Flying Tigers | Chinese CBA Club Cup | November 19, 2026 02:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Nanjing-Monkey-King---Xinjiang-Flying-Tigers/3920083/) |
-| **Basketball** | Shenzhen Leopards vs Tianjin Ronggang | Chinese CBA Club Cup | November 19, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Shenzhen-Leopards---Tianjin-Ronggang/3920084/) |
-| **Tennis** | Anna Kartseva vs Ilay Yoruk | ITF Women Singles W15 Antalya 8 | November 19, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Anna-Kartseva---Ilay-Yoruk/3920139/) |
-| **Tennis** | Viacheslav Bielinskyi vs Ali Yazdani | ITF Men Singles M15 Antalya 8 | November 19, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Viacheslav-Bielinskyi---Ali-Yazdani/3920169/) |
-| **Tennis** | Matyas Cerny vs Stepan Baum | ITF Men Singles M15 Antalya 8 | November 19, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Matyas-Cerny---Stepan-Baum/3920170/) |
-| **Tennis** | Andrey Chepelev vs Aleksa Oparnica | ITF Men Singles M15 Antalya 8 | November 19, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Andrey-Chepelev---Aleksa-Oparnica/3920171/) |
-| **Ice Hockey** | Magnitka Magnitogorsk vs Kristall Saratov | VHL | November 19, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Magnitka-Magnitogorsk---Kristall-Saratov/3917232/) |
-| **Ice Hockey** | Belye Medveditsy Chelyabinsk vs Agidel Ufa | Russian WHL | November 19, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Belye-Medveditsy-Chelyabinsk---Agidel-Ufa/3919763/) |
-| **Ice Hockey** | SKA-VMF vs Zauralie Kurgan | VHL | November 19, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/SKA-VMF---Zauralie-Kurgan/3917239/) |
+| **Soccer** | Western Sydney Wanderers vs Wellington Phoenix | Australian A-League Women | November 20, 2026 00:50:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Western-Sydney-Wanderers---Wellington-Phoenix/3915836/) |
+| **Soccer** | Garudayaksa vs Madura United | Indonesian Super League | November 20, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Garudayaksa---Madura-United/3913034/) |
+| **Soccer** | PSS Sleman vs Arema | Indonesian Super League | November 20, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/PSS-Sleman---Arema/3913035/) |
+| **Soccer** | South Melbourne vs Canberra Croatia | Australian Championship | November 20, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/South-Melbourne---Canberra-Croatia/3916803/) |
+| **Soccer** | Sydney United vs Sutherland Sharks | Australian Championship | November 20, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Sydney-United---Sutherland-Sharks/3916804/) |
+| **Soccer** | PSBS Biak Numfor vs Kendal Tornado | Indonesian Championship | November 20, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/PSBS-Biak-Numfor---Kendal-Tornado/3922092/) |
+| **Basketball** | Northern Kahu vs Tokomanawa Queens | New Zealand Tauihi Basketball Women | November 20, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Northern-Kahu---Tokomanawa-Queens/3919762/) |
+| **Basketball** | Turan vs Ertis Pavlodar | Kazakh Higher League Basketball | November 20, 2026 01:45:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Turan---Ertis-Pavlodar/3921132/) |
+| **Basketball** | Hefei Storm vs Nanjing Monkey King | Chinese CBA Club Cup | November 20, 2026 02:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Hefei-Storm---Nanjing-Monkey-King/3921133/) |
+| **Basketball** | Hong Kong Bulls vs Guangzhou Long-Lions | Chinese CBA Club Cup | November 20, 2026 02:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Hong-Kong-Bulls---Guangzhou-Long-Lions/3921134/) |
+| **Tennis** | Doga Turkmen vs Ilay Yoruk | ITF Women Singles W15 Antalya 8 | November 20, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Doga-Turkmen---Ilay-Yoruk/3921272/) |
+| **Tennis** | Meritxell Teixido Garcia vs Kaat Coppez | ITF Women Singles W15 Antalya 8 | November 20, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Meritxell-Teixido-Garcia---Kaat-Coppez/3921282/) |
+| **Tennis** | Gilles Arnaud Bailly vs Julio Cesar Porras | ITF Men Singles M25 Heraklion 4 | November 20, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Gilles-Arnaud-Bailly---Julio-Cesar-Porras/3921273/) |
+| **Tennis** | Oleksii Krutykh vs Menelaos Efstathiou | ITF Men Singles M25 Heraklion 4 | November 20, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Oleksii-Krutykh---Menelaos-Efstathiou/3921274/) |
+| **Ice Hockey** | Sakhalinskie Akuly vs Dinamo St. Petersburg | MHL | November 20, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Sakhalinskie-Akuly---Dinamo-St-Petersburg/3919819/) |
+| **Ice Hockey** | TPS U20 vs Ässät U20 | Finnish SM-sarja U20 | November 20, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/TPS-U20---C384ssC3A4t-U20/3918433/) |
+| **Ice Hockey** | Amurskie Tigry vs SKA-Akademiya | MHL | November 20, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Amurskie-Tigry---SKA-Akademiya/3919820/) |
 
 <!-- DAILY_MATCHES_END -->
 
