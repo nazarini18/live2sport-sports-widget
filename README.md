@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-21 13:10 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-22 12:57 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Tokyo Verdy vs Nagoya Grampus | Japan J1 League | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Tokyo-Verdy---Nagoya-Grampus/3914841/) |
-| **Soccer** | Machida Zelvia vs V-Varen Nagasaki | Japan J1 League | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Machida-Zelvia---V-Varen-Nagasaki/3914842/) |
-| **Soccer** | Kyoto Sanga vs Urawa Red Diamonds | Japan J1 League | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kyoto-Sanga---Urawa-Red-Diamonds/3914843/) |
-| **Soccer** | Sanfrecce Hiroshima vs Yokohama F. Marinos | Japan J1 League | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Sanfrecce-Hiroshima---Yokohama-F-Marinos/3914844/) |
-| **Soccer** | Tochigi City vs Albirex Niigata | Japan J2 League | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Tochigi-City---Albirex-Niigata/3914845/) |
-| **Soccer** | Jeonbuk Hyundai Motors vs FC Seoul | South Korean K-League 1 | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Jeonbuk-Hyundai-Motors---FC-Seoul/3914846/) |
-| **Basketball** | Veltex Shizuoka vs Bambitious Nara | Japan B League One | November 21, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Veltex-Shizuoka---Bambitious-Nara/3920733/) |
-| **Basketball** | Ehime Orange Vikings vs Tryhoop Okayama | Japan B League One | November 21, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Ehime-Orange-Vikings---Tryhoop-Okayama/3922277/) |
-| **Basketball** | Tokyo Hachioji Bee Trains vs Fukushima Firebonds | Japan B League One | November 21, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Tokyo-Hachioji-Bee-Trains---Fukushima-Firebonds/3922278/) |
-| **Basketball** | Chanson V-Magic vs Denso Iris | Japan W League Basketball | November 21, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Chanson-V-Magic---Denso-Iris/3920818/) |
-| **Tennis** | Himeno Sakatsume vs Maria Florencia Urrutia | WTA Billie Jean King Cup World Group | November 21, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Himeno-Sakatsume---Maria-Florencia-Urrutia/3922120/) |
-| **Tennis** | Arjun Rathi vs William Rejchtman Vinciguerra | ITF Men Singles M25 Bhubaneswar | November 21, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Arjun-Rathi---William-Rejchtman-Vinciguerra/3923279/) |
-| **Tennis** | Chirag Duhan vs Dev Javia | ITF Men Singles M25 Bhubaneswar | November 21, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Chirag-Duhan---Dev-Javia/3923280/) |
-| **Tennis** | Mukund Sasikumar vs Digvijay Pratap Singh | ITF Men Singles M25 Bhubaneswar | November 21, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Mukund-Sasikumar---Digvijay-Pratap-Singh/3923281/) |
-| **Ice Hockey** | Stars Kobe vs Red Eagles Hokkaido | Asia League Ice Hockey | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Stars-Kobe---Red-Eagles-Hokkaido/3919664/) |
-| **Ice Hockey** | Tohoku Free Blades vs Yokohama GRITS | Asia League Ice Hockey | November 21, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tohoku-Free-Blades---Yokohama-GRITS/3919665/) |
-| **Ice Hockey** | Norilsk vs Kaluga | VHL | November 21, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Norilsk---Kaluga/3920942/) |
+| **Soccer** | Tokushima Vortis vs Shonan Bellmare | Japan J2 League | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Tokushima-Vortis---Shonan-Bellmare/3916257/) |
+| **Soccer** | Gimcheon Sangmu vs Jeju | South Korean K-League 1 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Gimcheon-Sangmu---Jeju/3916258/) |
+| **Soccer** | Gwangju vs Bucheon | South Korean K-League 1 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Gwangju---Bucheon/3916259/) |
+| **Soccer** | Daegu vs Gimhae | South Korean K-League 2 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Daegu---Gimhae/3916260/) |
+| **Soccer** | Jeonnam Dragons vs Ansan Greeners | South Korean K-League 2 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Jeonnam-Dragons---Ansan-Greeners/3916261/) |
+| **Soccer** | Renofa Yamaguchi vs Reilac Shiga | Japan J3 League | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Renofa-Yamaguchi---Reilac-Shiga/3918518/) |
+| **Basketball** | Turan vs Ertis Pavlodar | Kazakh Higher League Basketball | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Turan---Ertis-Pavlodar/3924599/) |
+| **Basketball** | Veltex Shizuoka vs Bambitious Nara | Japan B League One | November 22, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Veltex-Shizuoka---Bambitious-Nara/3924086/) |
+| **Basketball** | Fukui Blowinds vs Niigata Albirex | Japan B League One | November 22, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Fukui-Blowinds---Niigata-Albirex/3924172/) |
+| **Basketball** | Tokushima Gambarous vs Iwate Big Bulls | Japan B League One | November 22, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Tokushima-Gambarous---Iwate-Big-Bulls/3924173/) |
+| **Tennis** | Reece Falck vs Shinji Hazawa | Challenger Men Singles Playford 2 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Reece-Falck---Shinji-Hazawa/3924316/) |
+| **Tennis** | Pavle Marinkov vs Harrison Satara | Challenger Men Singles Playford 2 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Pavle-Marinkov---Harrison-Satara/3924317/) |
+| **Tennis** | Hikaru Shiraishi vs Noritaka Koizumi | Challenger Men Singles Yokohama 2026 | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Hikaru-Shiraishi---Noritaka-Koizumi/3924325/) |
+| **Tennis** | William Rejchtman Vinciguerra vs Manish Sureshkumar | ITF Men Singles M25 Bhubaneswar | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/William-Rejchtman-Vinciguerra---Manish-Sureshkumar/3924444/) |
+| **Ice Hockey** | Tohoku Free Blades vs Yokohama GRITS | Asia League Ice Hockey | November 22, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tohoku-Free-Blades---Yokohama-GRITS/3924182/) |
+| **Ice Hockey** | Tayfun vs Almaz | MHL | November 22, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tayfun---Almaz/3922238/) |
+| **Ice Hockey** | Avto vs MHC Spartak | MHL | November 22, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Avto---MHC-Spartak/3922239/) |
 
 <!-- DAILY_MATCHES_END -->
 
