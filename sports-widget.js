@@ -488,7 +488,9 @@
         }
 
         var title = '';
-        if (isEvValid) {
+        if (/\S\s+-\s+\S/.test(evFull)) {
+            title = evFull;
+        } else if (isEvValid) {
             title = ev;
         } else if (evFull && evFull !== '-') {
             title = evFull;
