@@ -4,7 +4,7 @@ Tags: sports, fixtures, schedule, live scores, tv listings
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -96,6 +96,9 @@ Yes. The JavaScript and image assets are packaged locally. Schedule and optional
 Yes. Each shortcode creates its own container. Different sports, dates, and link preferences can be used on the same page.
 
 == Changelog ==
+
+= 1.2.3 =
+* Display full team names when available in the schedule data.
 
 = 1.2.2 =
 * Clarify saved display preferences, external service policies and opt-in choices for public links.

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Live2Sport – TV Guide, Live Scores & Predictions
  * Description: Add sports schedules, TV channel listings, live scores and match predictions to your website with an adaptive widget.
- * Version: 1.2.2
+ * Version: 1.2.3
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: Live2Sport
@@ -70,12 +70,12 @@ final class TVEvents_Sports_Schedule_Widget {
 	/** Register the widget JavaScript shipped with this plugin. */
 	public static function register_script() {
 		$script_path = plugin_dir_path(__FILE__) . self::SCRIPT_FILE;
-		$version = file_exists($script_path) ? (string) filemtime($script_path) : '1.2.2';
+		$version = file_exists($script_path) ? (string) filemtime($script_path) : '1.2.3';
 		wp_register_script(
 			self::FLAGS_HANDLE,
 			plugins_url('assets/flags.js', __FILE__),
 			array(),
-			'1.2.2',
+			'1.2.3',
 			true
 		);
 
