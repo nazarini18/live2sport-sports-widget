@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-23 15:34 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-24 15:26 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Nagano Parceiro vs Urawa Red Diamonds | Japan WE League Women | November 23, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Nagano-Parceiro---Urawa-Red-Diamonds/3920386/) |
-| **Soccer** | NTV Beleza vs INAC Kobe Leonessa | Japan WE League Women | November 23, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/NTV-Beleza---INAC-Kobe-Leonessa/3920387/) |
-| **Soccer** | Yangon City vs Hanthawaddy United | Myanmar M League | November 23, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Yangon-City---Hanthawaddy-United/3925690/) |
-| **Soccer** | Colombo vs Up Country Lions | Sri Lanka Super League | November 23, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Colombo---Up-Country-Lions/3888512/) |
-| **Soccer** | Chinland vs Ayeyawady United | Myanmar M League | November 23, 2026 04:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Chinland---Ayeyawady-United/3925691/) |
-| **Soccer** | Talanta vs Kibera Soccer | Kenyan Super League | November 23, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Talanta---Kibera-Soccer/3925071/) |
-| **Basketball** | Incheon Shinhan Bank S-Birds vs Bucheon KEB Hana Bank | WKBL | November 23, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Incheon-Shinhan-Bank-S-Birds---Bucheon-KEB-Hana-Bank/3925487/) |
-| **Basketball** | Shandong Sports Lottery vs Sichuan Jin Qiang | WCBA | November 23, 2026 06:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Shandong-Sports-Lottery---Sichuan-Jin-Qiang/3924267/) |
-| **Basketball** | Shanghai Baoshan Dahua vs Jiangsu Phoenix | WCBA | November 23, 2026 06:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Shanghai-Baoshan-Dahua---Jiangsu-Phoenix/3924268/) |
-| **Basketball** | Universitatea Cluj-Napoca vs CSM Alexandria | Romanian Liga National Basketball Women | November 23, 2026 06:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Universitatea-Cluj-Napoca---CSM-Alexandria/3926111/) |
-| **Tennis** | Dhakshineswar Suresh vs Moerani Bouzige | Challenger Men Singles Playford 2 | November 23, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Dhakshineswar-Suresh---Moerani-Bouzige/3924360/) |
-| **Tennis** | Kasidit Samrej vs Dimitris Sakellaridis | Challenger Men Singles Yokohama | November 23, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Kasidit-Samrej---Dimitris-Sakellaridis/3924397/) |
-| **Tennis** | Max Schoenhaus vs Masamichi Imamura | Challenger Men Singles Yokohama | November 23, 2026 00:15:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Max-Schoenhaus---Masamichi-Imamura/3924399/) |
-| **Tennis** | Ognjen Milic vs Keegan Smith | Challenger Men Singles Yokohama | November 23, 2026 01:20:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Ognjen-Milic---Keegan-Smith/3924402/) |
-| **Ice Hockey** | Norilsk vs AKM | VHL | November 23, 2026 07:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Norilsk---AKM/3920128/) |
-| **Ice Hockey** | Sibir Novosibirsk vs Severstal Cherepovets | KHL | November 23, 2026 07:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Sibir-Novosibirsk---Severstal-Cherepovets/3922090/) |
-| **Ice Hockey** | CSK VVS Samara vs Dynamo-Altay | VHL | November 23, 2026 08:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/CSK-VVS-Samara---Dynamo-Altay/3922289/) |
+| **Soccer** | Newcastle Jets vs Kashiwa Reysol | AFC Champions League | November 24, 2026 02:45:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Newcastle-Jets---Kashiwa-Reysol/3918444/) |
+| **Soccer** | Manika vs Saint-Éloi Lupopo | DR Congo Ligue 1 | November 24, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Manika---Saint-C389loi-Lupopo/3924967/) |
+| **Soccer** | Chattogram City vs Brothers Union | Bangladesh Federation Cup | November 24, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Chattogram-City---Brothers-Union/3926761/) |
+| **Soccer** | Ahrobiznes Volochysk vs Chernihiv | Ukrainian Persha Liga | November 24, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Ahrobiznes-Volochysk---Chernihiv/3882312/) |
+| **Soccer** | Persija Jakarta vs Sumsel United | Indonesian I League Cup | November 24, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Persija-Jakarta---Sumsel-United/3926605/) |
+| **Soccer** | Garudayaksa vs PSS Sleman | Indonesian I League Cup | November 24, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Garudayaksa---PSS-Sleman/3926606/) |
+| **Basketball** | Perth Lynx vs Canberra Capitals | Australian WNBL | November 24, 2026 05:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Perth-Lynx---Canberra-Capitals/3925508/) |
+| **Basketball** | Abra Weavers vs Quezon Huskers | Philippines MBPL | November 24, 2026 05:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Abra-Weavers---Quezon-Huskers/3925137/) |
+| **Basketball** | Liaoning Flying Eagles vs Hefei | WCBA | November 24, 2026 06:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Liaoning-Flying-Eagles---Hefei/3926420/) |
+| **Basketball** | Guangdong Vermilion Birds vs Henan Yichuan | WCBA | November 24, 2026 06:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Guangdong-Vermilion-Birds---Henan-Yichuan/3926421/) |
+| **Tennis** | Dane Sweeny vs Jake Delaney | Challenger Men Singles Playford 2 | November 24, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Dane-Sweeny---Jake-Delaney/3924361/) |
+| **Tennis** | Aditi Rawat vs Maria Kalyakina | ITF Women Singles W15 Kolkata | November 24, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Aditi-Rawat---Maria-Kalyakina/3926714/) |
+| **Tennis** | Aleena Farid vs Maayan Laron | ITF Women Singles W15 Kolkata | November 24, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Aleena-Farid---Maayan-Laron/3927056/) |
+| **Tennis** | Nikita Ianin vs Aniketh Venkataraman | ITF Men Singles M25 Bhopal | November 24, 2026 00:45:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Nikita-Ianin---Aniketh-Venkataraman/3926767/) |
+| **Ice Hockey** | Sakhalinskie Akuly vs SKA-Akademiya | MHL | November 24, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Sakhalinskie-Akuly---SKA-Akademiya/3925438/) |
+| **Ice Hockey** | Sverdlovsk Region vs Sakhalin | Russian WHL | November 24, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Sverdlovsk-Region---Sakhalin/3925635/) |
+| **Ice Hockey** | Amurskie Tigry vs Almaz | MHL | November 24, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Amurskie-Tigry---Almaz/3925439/) |
 
 <!-- DAILY_MATCHES_END -->
 
