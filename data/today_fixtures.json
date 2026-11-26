@@ -1,161 +1,161 @@
 {
   "provider": "TVEvents.org",
   "provider_url": "https://tvevents.org",
-  "updated_at": "2026-11-25 15:12:59 UTC",
+  "updated_at": "2026-11-26 14:37:48 UTC",
   "total_fixtures": 17,
   "fixtures": [
     {
-      "title": "Giravanz Kitakyushu vs Zweigen Kanazawa",
+      "title": "AC Taipei vs Hang Yuen",
       "sport": "Soccer",
-      "league": "Japan J3 League",
-      "time": "November 25, 2026 00:00:00",
-      "url": "https://tvevents.org/Soccer.php/Giravanz-Kitakyushu---Zweigen-Kanazawa/3924224/",
-      "has_tv": true,
-      "has_pred": false
-    },
-    {
-      "title": "Melbourne Victory vs Viettel",
-      "sport": "Soccer",
-      "league": "AFC Champions League 2",
-      "time": "November 25, 2026 02:45:00",
-      "url": "https://tvevents.org/Soccer.php/Melbourne-Victory---Viettel/3927209/",
-      "has_tv": true,
-      "has_pred": true
-    },
-    {
-      "title": "Persatuan Kota Pasuruan vs PSIM Yogyakarta",
-      "sport": "Soccer",
-      "league": "Indonesian I League Cup",
-      "time": "November 25, 2026 03:30:00",
-      "url": "https://tvevents.org/Soccer.php/Persatuan-Kota-Pasuruan---PSIM-Yogyakarta/3927440/",
+      "league": "Taiwan Premier League",
+      "time": "November 26, 2026 02:00:00",
+      "url": "https://tvevents.org/Soccer.php/AC-Taipei---Hang-Yuen/3928465/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Kolos Kovalivka U19 vs Rukh Lviv U19",
+      "title": "Borneo Samarinda vs Persita Tangerang",
       "sport": "Soccer",
-      "league": "Ukrainian U19 League",
-      "time": "November 25, 2026 04:00:00",
-      "url": "https://tvevents.org/Soccer.php/Kolos-Kovalivka-U19---Rukh-Lviv-U19/3924211/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Reilac Shiga vs Kochi United",
-      "sport": "Soccer",
-      "league": "Japan J3 League",
-      "time": "November 25, 2026 04:00:00",
-      "url": "https://tvevents.org/Soccer.php/Reilac-Shiga---Kochi-United/3924225/",
+      "league": "Indonesian Super League",
+      "time": "November 26, 2026 03:30:00",
+      "url": "https://tvevents.org/Soccer.php/Borneo-Samarinda---Persita-Tangerang/3925488/",
       "has_tv": true,
       "has_pred": true
     },
     {
-      "title": "Shan United vs Thitsar Arman",
+      "title": "South Melbourne vs Oakleigh Cannons",
       "sport": "Soccer",
-      "league": "Myanmar M League",
-      "time": "November 25, 2026 04:00:00",
-      "url": "https://tvevents.org/Soccer.php/Shan-United---Thitsar-Arman/3927701/",
+      "league": "Australian Championship",
+      "time": "November 26, 2026 03:30:00",
+      "url": "https://tvevents.org/Soccer.php/South-Melbourne---Oakleigh-Cannons/3926708/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Parvoz Khujand vs CSKA-Pomir",
+      "sport": "Soccer",
+      "league": "Tajik League",
+      "time": "November 26, 2026 04:00:00",
+      "url": "https://tvevents.org/Soccer.php/Parvoz-Khujand---CSKA-Pomir/3929135/",
       "has_tv": true,
       "has_pred": false
     },
     {
-      "title": "Kansas State Wildcats vs Gonzaga Bulldogs",
+      "title": "Odishi 1919 vs Shturmi",
+      "sport": "Soccer",
+      "league": "Georgian Erovnuli Liga 2",
+      "time": "November 26, 2026 04:30:00",
+      "url": "https://tvevents.org/Soccer.php/Odishi-1919---Shturmi/3927802/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Gareji Sagarejo vs Samtredia",
+      "sport": "Soccer",
+      "league": "Georgian Erovnuli Liga 2",
+      "time": "November 26, 2026 04:30:00",
+      "url": "https://tvevents.org/Soccer.php/Gareji-Sagarejo---Samtredia/3927803/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Fiji vs Hong Kong",
+      "sport": "Basketball",
+      "league": "Asia Cup Basketball",
+      "time": "November 26, 2026 00:00:00",
+      "url": "https://tvevents.org/Basketball.php/Fiji---Hong-Kong/3928924/",
+      "has_tv": true,
+      "has_pred": false
+    },
+    {
+      "title": "Colorado State Rams vs Clemson Tigers",
       "sport": "Basketball",
       "league": "NCAA College Basketball",
-      "time": "November 25, 2026 00:30:00",
-      "url": "https://tvevents.org/Basketball.php/Kansas-State-Wildcats---Gonzaga-Bulldogs/3926122/",
+      "time": "November 26, 2026 00:30:00",
+      "url": "https://tvevents.org/Basketball.php/Colorado-State-Rams---Clemson-Tigers/3928705/",
+      "has_tv": false,
+      "has_pred": false
+    },
+    {
+      "title": "Bendigo Spirit vs Tasmania Jewels",
+      "sport": "Basketball",
+      "league": "Australian WNBL",
+      "time": "November 26, 2026 03:00:00",
+      "url": "https://tvevents.org/Basketball.php/Bendigo-Spirit---Tasmania-Jewels/3926330/",
       "has_tv": true,
       "has_pred": false
     },
     {
-      "title": "Asan Woori Bank Wibee vs Cheongju KB Stars",
+      "title": "Thailand vs Malaysia",
       "sport": "Basketball",
-      "league": "WKBL",
-      "time": "November 25, 2026 05:00:00",
-      "url": "https://tvevents.org/Basketball.php/Asan-Woori-Bank-Wibee---Cheongju-KB-Stars/3927560/",
-      "has_tv": false,
-      "has_pred": true
-    },
-    {
-      "title": "Formosa Dreamers vs Hsinchu JKO Lioneers",
-      "sport": "Basketball",
-      "league": "Taiwan TPBL",
-      "time": "November 25, 2026 06:00:00",
-      "url": "https://tvevents.org/Basketball.php/Formosa-Dreamers---Hsinchu-JKO-Lioneers/3926526/",
-      "has_tv": false,
+      "league": "Asia Cup Basketball",
+      "time": "November 26, 2026 03:00:00",
+      "url": "https://tvevents.org/Basketball.php/Thailand---Malaysia/3929074/",
+      "has_tv": true,
       "has_pred": false
     },
     {
-      "title": "Dynamo Novosibirsk vs Neftyanik Omsk",
-      "sport": "Basketball",
-      "league": "Russian Premier League Basketball Women",
-      "time": "November 25, 2026 07:00:00",
-      "url": "https://tvevents.org/Basketball.php/Dynamo-Novosibirsk---Neftyanik-Omsk/3928509/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Akira Santillan vs Christian Langmo",
-      "sport": "Tennis",
-      "league": "Challenger Men Singles Playford 2",
-      "time": "November 25, 2026 00:15:00",
-      "url": "https://tvevents.org/Tennis.php/Akira-Santillan---Christian-Langmo/3927497/",
-      "has_tv": false,
-      "has_pred": true
-    },
-    {
-      "title": "Sandeepti Singh Rao vs Shrivalli Rashmikaa Bhamidipaty",
+      "title": "Suzuna Oigawa vs Sandeepti Singh Rao",
       "sport": "Tennis",
       "league": "ITF Women Singles W15 Kolkata",
-      "time": "November 25, 2026 00:30:00",
-      "url": "https://tvevents.org/Tennis.php/Sandeepti-Singh-Rao---Shrivalli-Rashmikaa-Bhamidipaty/3927755/",
+      "time": "November 26, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Suzuna-Oigawa---Sandeepti-Singh-Rao/3928932/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Suzuna Oigawa vs On Yu Choi",
+      "title": "Fang An Lin vs Ekaterina Yashina",
       "sport": "Tennis",
       "league": "ITF Women Singles W15 Kolkata",
-      "time": "November 25, 2026 00:30:00",
-      "url": "https://tvevents.org/Tennis.php/Suzuna-Oigawa---On-Yu-Choi/3927756/",
+      "time": "November 26, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Fang-An-Lin---Ekaterina-Yashina/3928954/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Akansha Ghosh vs Arunkumar Lakshmi Prabha",
+      "title": "Priska Madelyn Nugroho vs Maria Mikhaylova",
       "sport": "Tennis",
       "league": "ITF Women Singles W15 Kolkata",
-      "time": "November 25, 2026 00:30:00",
-      "url": "https://tvevents.org/Tennis.php/Akansha-Ghosh---Arunkumar-Lakshmi-Prabha/3928387/",
+      "time": "November 26, 2026 00:30:00",
+      "url": "https://tvevents.org/Tennis.php/Priska-Madelyn-Nugroho---Maria-Mikhaylova/3929202/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Sakhalinskie Akuly vs SKA-Akademiya",
-      "sport": "Ice Hockey",
-      "league": "MHL",
-      "time": "November 25, 2026 03:00:00",
-      "url": "https://tvevents.org/Hockey.php/Sakhalinskie-Akuly---SKA-Akademiya/3926445/",
+      "title": "Chirag Duhan vs Adil Kalyanpur",
+      "sport": "Tennis",
+      "league": "ITF Men Singles M25 Bhopal",
+      "time": "November 26, 2026 00:40:00",
+      "url": "https://tvevents.org/Tennis.php/Chirag-Duhan---Adil-Kalyanpur/3928745/",
       "has_tv": false,
       "has_pred": false
     },
     {
-      "title": "Amurskie Tigry vs Almaz",
-      "sport": "Ice Hockey",
-      "league": "MHL",
-      "time": "November 25, 2026 04:00:00",
-      "url": "https://tvevents.org/Hockey.php/Amurskie-Tigry---Almaz/3926446/",
-      "has_tv": false,
-      "has_pred": false
-    },
-    {
-      "title": "Barys Astana vs Severstal Cherepovets",
+      "title": "Amur Khabarovsk vs Ak Bars Kazan",
       "sport": "Ice Hockey",
       "league": "KHL",
-      "time": "November 25, 2026 09:00:00",
-      "url": "https://tvevents.org/Hockey.php/Barys-Astana---Severstal-Cherepovets/3925286/",
+      "time": "November 26, 2026 04:00:00",
+      "url": "https://tvevents.org/Hockey.php/Amur-Khabarovsk---Ak-Bars-Kazan/3926381/",
       "has_tv": true,
       "has_pred": true
+    },
+    {
+      "title": "Admiral Vladivostok vs Avangard Omsk",
+      "sport": "Ice Hockey",
+      "league": "KHL",
+      "time": "November 26, 2026 04:30:00",
+      "url": "https://tvevents.org/Hockey.php/Admiral-Vladivostok---Avangard-Omsk/3926382/",
+      "has_tv": true,
+      "has_pred": true
+    },
+    {
+      "title": "Martin vs Slovakia U18",
+      "sport": "Ice Hockey",
+      "league": "Slovak 1 Liga Hockey",
+      "time": "November 26, 2026 05:00:00",
+      "url": "https://tvevents.org/Hockey.php/Martin---Slovakia-U18/3929560/",
+      "has_tv": true,
+      "has_pred": false
     }
   ]
 }
