@@ -36,27 +36,27 @@ Try the interactive widget directly in your browser:
 ## 📅 Today's Featured Match Center (Live Broadcast Directory)
 
 <!-- DAILY_MATCHES_START -->
-*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-27 14:31 UTC.*
+*Daily schedule snapshot curated from the [TVEvents.org](https://tvevents.org) broadcast engine. Last updated: 2026-11-28 13:47 UTC.*
 
 | Sport | Match | Competition | Kick-off | Live TV Broadcast & Channels |
 | :--- | :--- | :--- | :---: | :--- |
-| **Soccer** | Broadmeadow Magic vs Queensland Lions | Australian Championship | November 27, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Broadmeadow-Magic---Queensland-Lions/3926735/) |
-| **Soccer** | Bangladesh Police vs Abahani Limited | Bangladesh BFL | November 27, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Bangladesh-Police---Abahani-Limited/3929477/) |
-| **Soccer** | Rahmatganj vs Mohammedan | Bangladesh BFL | November 27, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Rahmatganj---Mohammedan/3929478/) |
-| **Soccer** | Spain U19 W vs Israel U19 W | UEFA Euro U19 Women | November 27, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Spain-U19-W---Israel-U19-W/3929941/) |
-| **Soccer** | Huế vs Đồng Tâm Long An | Vietnamese V League 2 | November 27, 2026 03:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/HuE1BABF---C490E1BB93ng-TC3A2m-Long-An/3930052/) |
-| **Soccer** | Macarthur FC vs Melbourne City | Australian A-League | November 27, 2026 03:40:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Macarthur-FC---Melbourne-City/3920765/) |
-| **Basketball** | Malaysia vs Fiji | Asia Cup Basketball | November 27, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Malaysia---Fiji/3929927/) |
-| **Basketball** | Jordan vs New Zealand | World Championship Basketball | November 27, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Jordan---New-Zealand/3929782/) |
-| **Basketball** | Southern Hoiho vs Northern Kahu | New Zealand Tauihi Basketball Women | November 27, 2026 01:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Southern-Hoiho---Northern-Kahu/3928706/) |
-| **Basketball** | Canberra Capitals vs Geelong Venom | Australian WNBL | November 27, 2026 03:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Canberra-Capitals---Geelong-Venom/3928355/) |
-| **Tennis** | Omar Jasika vs Alex Bolt | Challenger Men Singles Playford 2 | November 27, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Omar-Jasika---Alex-Bolt/3929627/) |
-| **Tennis** | Karan Singh vs Grigoriy Lomakin | ITF Men Singles M25 Bhopal | November 27, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Karan-Singh---Grigoriy-Lomakin/3929828/) |
-| **Tennis** | Kamonwan Yodpetch vs Maayan Laron | ITF Women Singles W15 Kolkata | November 27, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Kamonwan-Yodpetch---Maayan-Laron/3930026/) |
-| **Tennis** | Florentine Dekkers vs Fang An Lin | ITF Women Singles W15 Kolkata | November 27, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Florentine-Dekkers---Fang-An-Lin/3930181/) |
-| **Ice Hockey** | Tayfun vs SKA-Akademiya | MHL | November 27, 2026 04:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Tayfun---SKA-Akademiya/3928781/) |
-| **Ice Hockey** | Norilsk vs Ryazan | VHL | November 27, 2026 07:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Norilsk---Ryazan/3927694/) |
-| **Ice Hockey** | Verva Litvínov U20 vs Oceláři Třinec U20 | Czech ELJ | November 27, 2026 08:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Verva-LitvC3ADnov-U20---OcelC3A1C599i-TC599inec-U20/3927841/) |
+| **Soccer** | FC Seoul vs Daejeon Citizen | South Korean K-League 1 | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/FC-Seoul---Daejeon-Citizen/3924293/) |
+| **Soccer** | Anyang vs Jeju | South Korean K-League 1 | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Anyang---Jeju/3924303/) |
+| **Soccer** | Yongin vs Paju Frontier | South Korean K-League 2 | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Yongin---Paju-Frontier/3925617/) |
+| **Soccer** | Gimhae vs Seongnam Ilhwa Chunma | South Korean K-League 2 | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Gimhae---Seongnam-Ilhwa-Chunma/3925618/) |
+| **Soccer** | Kyoto Sanga vs Cerezo Osaka | Japan J1 League | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Kyoto-Sanga---Cerezo-Osaka/3926636/) |
+| **Soccer** | Shimizu S-Pulse vs Urawa Red Diamonds | Japan J1 League | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Soccer.php/Shimizu-S-Pulse---Urawa-Red-Diamonds/3926637/) |
+| **Basketball** | Toyota Boshoku Sunshine Rabbits vs Chanson V-Magic | Japan W League Basketball | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Toyota-Boshoku-Sunshine-Rabbits---Chanson-V-Magic/3929981/) |
+| **Basketball** | Fujitsu Red Wave vs Aisin Wings | Japan W League Basketball | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Fujitsu-Red-Wave---Aisin-Wings/3930205/) |
+| **Basketball** | Busan BNK Sum vs Cheongju KB Stars | WKBL | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Busan-BNK-Sum---Cheongju-KB-Stars/3931097/) |
+| **Basketball** | Veltex Shizuoka vs Fukui Blowinds | Japan B League One | November 28, 2026 00:05:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Basketball.php/Veltex-Shizuoka---Fukui-Blowinds/3929530/) |
+| **Tennis** | Dev Javia vs William Rejchtman Vinciguerra | ITF Men Singles M25 Bhopal | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Dev-Javia---William-Rejchtman-Vinciguerra/3931191/) |
+| **Tennis** | Jensi Dipakbhai Kanabar vs Florentine Dekkers | ITF Women Singles W15 Kolkata | November 28, 2026 00:30:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Jensi-Dipakbhai-Kanabar---Florentine-Dekkers/3932027/) |
+| **Tennis** | Thilo Behrmann vs Andrea Paolini | ITF Men Singles M15 Antalya 9 | November 28, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Thilo-Behrmann---Andrea-Paolini/3931314/) |
+| **Tennis** | Vuk Radjenovic vs Sebastian Gima | ITF Men Singles M15 Antalya 9 | November 28, 2026 02:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Tennis.php/Vuk-Radjenovic---Sebastian-Gima/3931315/) |
+| **Ice Hockey** | Stars Kobe vs Tohoku Free Blades | Asia League Ice Hockey | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Stars-Kobe---Tohoku-Free-Blades/3928675/) |
+| **Ice Hockey** | Nikkō Ice Bucks vs Red Eagles Hokkaido | Asia League Ice Hockey | November 28, 2026 00:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/NikkC58D-Ice-Bucks---Red-Eagles-Hokkaido/3928676/) |
+| **Ice Hockey** | Yokohama GRITS vs Anyang Halla | Asia League Ice Hockey | November 28, 2026 01:00:00 | [📺 TV Schedule & Match Center](https://tvevents.org/Hockey.php/Yokohama-GRITS---Anyang-Halla/3928677/) |
 
 <!-- DAILY_MATCHES_END -->
 
